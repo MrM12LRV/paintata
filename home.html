@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js">
+    </script>
+</head>
+
+<body>
+
+    <a onclick=""> hi </a>
+
+    <div ng-app="application" ng-controller="controller"
+         ng-init="init();">
+        Limit: <input type="text" ng-model="limit">     <br/>
+        Offset: <input type="text" ng-model="offset">   <br/>
+        <button ng-click="getData()"> Display </button> <br/>
+
+        Limit / Offset: {{limit + "/" + offset}}        <br/>
+
+        <ul>
+          <li ng-repeat="x in data">
+            {{ x.artistfirstname + ", " +
+               x.artistlastname  + ": " +
+               x.image }}
+          </li>
+        </ul>
+
+        <br/>
+        {{data}}
+    </div>
+
+    <script>
+        angular.module('application', [])
+        .controller('controller',
+        function($scope, $http) {
+
+            $scope.init = function() {
+                $scope.limit = 10;
+                $scope.offset = 0;
+                $scope.data= null;
+            }
+
+            $scope.getData = function() {
+                // get API endpoint data in JSON format
+                // with specified user inputs for
+                // limit: number of items to show AND
+                // offset: starting point at which to display items
+                $http.get(
+                    "https://data.baltimorecity.gov/resource/x3eq-9sua.json" +
+                    "?$limit="  + $scope.limit +
+                    "&$offset=" + $scope.offset)
+                .then(function(response) {
+                    $scope.data = response.data;
+                });
+            }
+            
+
+
+        });
+    </script>
+
+</body>
+<!--
+href="https://data.cityofchicago.org/resource/alternative-fuel-locations.json?$limit=100&$offset=100"
+-->
+<!--
+ng-repeat="row in dataRecords">
+            {{ row.street_address + ', ' + row.station_phone }}
+            hi
+-->
+
+</html>

@@ -1,0 +1,709 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "zqh4-9ud5",
+      "name" : "Baltimore City Murals Project 1987 to Present",
+      "attribution" : "The Baltimore Office of Promotion & The Arts",
+      "attributionLink" : "http://www.bop.org",
+      "averageRating" : 0,
+      "category" : "Culture & Arts",
+      "createdAt" : 1333111683,
+      "description" : "Mayor Stephanie Rawlings-Blake and the Baltimore Office of Promotion & The Arts have announced CityPaint 2012: Baltimore Mural Program.  This initiative will decorate Baltimore City with numerous murals this year. As part of the Cleaner, Greener Baltimore program, the city is partnering with neighborhood groups, community organizations, artists and corporations for CityPaint 2012.",
+      "displayType" : "table",
+      "downloadCount" : 1085,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1414539954,
+      "licenseId" : "CC_30_BY",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 7693061,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1396567420,
+      "publicationGroup" : 307853,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1396567413,
+      "rowsUpdatedBy" : "6r9a-dfdj",
+      "tableId" : 1533912,
+      "totalTimesRated" : 0,
+      "viewCount" : 1842,
+      "viewLastModified" : 1461175813,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 141276581,
+        "name" : "location",
+        "dataTypeName" : "text",
+        "fieldName" : "location",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 2408125,
+        "width" : 275,
+        "cachedContents" : {
+          "non_null" : 171,
+          "largest" : "Wicomico and Bayard Sts.",
+          "null" : 0,
+          "top" : [ {
+            "item" : "N. Patterson Park Ave. and N. Gay St.",
+            "count" : 20
+          }, {
+            "item" : "Baltimore Farmer's Market - Holliday and Saratoga Streets",
+            "count" : 19
+          }, {
+            "item" : "601 E. 33rd Street",
+            "count" : 18
+          }, {
+            "item" : "221 Pulaski Street",
+            "count" : 17
+          }, {
+            "item" : "330 W. Lafayette Street",
+            "count" : 16
+          }, {
+            "item" : "401 Whitridge Street",
+            "count" : 15
+          }, {
+            "item" : "1818 W. Fayette Street",
+            "count" : 14
+          }, {
+            "item" : "3313 Greenmount Avenue",
+            "count" : 13
+          }, {
+            "item" : "700 N. Calhoun Street, Harlem Park Recreation Center",
+            "count" : 12
+          }, {
+            "item" : "2410 Tolley Street, Morrell Park",
+            "count" : 11
+          }, {
+            "item" : "2009 Annapolis Road",
+            "count" : 10
+          }, {
+            "item" : "1940 Druid Hill Avenue",
+            "count" : 9
+          }, {
+            "item" : "1503 Durham Street",
+            "count" : 8
+          }, {
+            "item" : "1137 Harford Road",
+            "count" : 7
+          }, {
+            "item" : "416 Monroe Street",
+            "count" : 6
+          }, {
+            "item" : "3120 Erdman Avenue",
+            "count" : 5
+          }, {
+            "item" : "2439 Charles Street",
+            "count" : 4
+          }, {
+            "item" : "2300 Washington Boulevard",
+            "count" : 3
+          }, {
+            "item" : "2900 Barclay Street (Mosaic)",
+            "count" : 2
+          }, {
+            "item" : "3424 Elm Avenue",
+            "count" : 1
+          } ],
+          "smallest" : "1000 N. Patterson Park Ave."
+        },
+        "format" : { }
+      }, {
+        "id" : 141276582,
+        "name" : "artistFirstName",
+        "dataTypeName" : "text",
+        "fieldName" : "artistfirstname",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 2408126,
+        "width" : 195,
+        "cachedContents" : {
+          "non_null" : 170,
+          "largest" : "Unknown",
+          "null" : 1,
+          "top" : [ {
+            "item" : "Tom",
+            "count" : 20
+          }, {
+            "item" : "John",
+            "count" : 19
+          }, {
+            "item" : "Pontella",
+            "count" : 18
+          }, {
+            "item" : "Mary",
+            "count" : 17
+          }, {
+            "item" : "Charles",
+            "count" : 16
+          }, {
+            "item" : "Lyle",
+            "count" : 15
+          }, {
+            "item" : "Gary",
+            "count" : 14
+          }, {
+            "item" : "Ernest",
+            "count" : 13
+          }, {
+            "item" : "Shawn",
+            "count" : 12
+          }, {
+            "item" : "Benari",
+            "count" : 11
+          }, {
+            "item" : "Jennifer",
+            "count" : 10
+          }, {
+            "item" : "Michael",
+            "count" : 9
+          }, {
+            "item" : "Bill",
+            "count" : 8
+          }, {
+            "item" : "Danamarie",
+            "count" : 7
+          }, {
+            "item" : "Seth",
+            "count" : 6
+          }, {
+            "item" : "Donald ",
+            "count" : 5
+          }, {
+            "item" : "Joel",
+            "count" : 4
+          }, {
+            "item" : "Spoon ",
+            "count" : 3
+          }, {
+            "item" : "Charles ",
+            "count" : 2
+          }, {
+            "item" : "Nelson",
+            "count" : 1
+          } ],
+          "smallest" : "A"
+        },
+        "format" : { }
+      }, {
+        "id" : 141276583,
+        "name" : "artistLastName",
+        "dataTypeName" : "text",
+        "fieldName" : "artistlastname",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 2408127,
+        "width" : 193,
+        "cachedContents" : {
+          "non_null" : 171,
+          "largest" : "Wyland",
+          "null" : 0,
+          "top" : [ {
+            "item" : "Miller",
+            "count" : 20
+          }, {
+            "item" : "Ellsberry",
+            "count" : 19
+          }, {
+            "item" : "Mason",
+            "count" : 18
+          }, {
+            "item" : "Carfagno Ferguson",
+            "count" : 17
+          }, {
+            "item" : "Lawrence",
+            "count" : 16
+          }, {
+            "item" : "Kissack",
+            "count" : 15
+          }, {
+            "item" : "Mullen",
+            "count" : 14
+          }, {
+            "item" : "Shaw",
+            "count" : 13
+          }, {
+            "item" : "James and Mural Masters",
+            "count" : 12
+          }, {
+            "item" : "Kirby",
+            "count" : 11
+          }, {
+            "item" : "Hosler",
+            "count" : 10
+          }, {
+            "item" : "Santos",
+            "count" : 9
+          }, {
+            "item" : "Tyson",
+            "count" : 8
+          }, {
+            "item" : "Bergner",
+            "count" : 7
+          }, {
+            "item" : "Popkin",
+            "count" : 6
+          }, {
+            "item" : "Rivas",
+            "count" : 5
+          }, {
+            "item" : "Owens",
+            "count" : 4
+          }, {
+            "item" : "Marra",
+            "count" : 3
+          }, {
+            "item" : "Droze",
+            "count" : 2
+          }, {
+            "item" : "Bertholet",
+            "count" : 1
+          } ],
+          "smallest" : "Adams"
+        },
+        "format" : { }
+      }, {
+        "id" : 141276584,
+        "name" : "YEAR",
+        "dataTypeName" : "text",
+        "fieldName" : "year",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 2408128,
+        "width" : 68,
+        "cachedContents" : {
+          "non_null" : 171,
+          "largest" : "2011",
+          "null" : 0,
+          "top" : [ {
+            "item" : "1987",
+            "count" : 20
+          }, {
+            "item" : "1988",
+            "count" : 19
+          }, {
+            "item" : "1989",
+            "count" : 18
+          }, {
+            "item" : "1990",
+            "count" : 17
+          }, {
+            "item" : "1991",
+            "count" : 16
+          }, {
+            "item" : "1992",
+            "count" : 15
+          }, {
+            "item" : "1993",
+            "count" : 14
+          }, {
+            "item" : "1994",
+            "count" : 13
+          }, {
+            "item" : "1995",
+            "count" : 12
+          }, {
+            "item" : "1996",
+            "count" : 11
+          }, {
+            "item" : "1997",
+            "count" : 10
+          }, {
+            "item" : "1998",
+            "count" : 9
+          }, {
+            "item" : "1999",
+            "count" : 8
+          }, {
+            "item" : "2000",
+            "count" : 7
+          }, {
+            "item" : "2001",
+            "count" : 6
+          }, {
+            "item" : "2002",
+            "count" : 5
+          }, {
+            "item" : "2003",
+            "count" : 4
+          }, {
+            "item" : "2004",
+            "count" : 3
+          }, {
+            "item" : "2005",
+            "count" : 2
+          }, {
+            "item" : "2006",
+            "count" : 1
+          } ],
+          "smallest" : "1987"
+        },
+        "format" : { }
+      }, {
+        "id" : 141276585,
+        "name" : "Location 1",
+        "dataTypeName" : "location",
+        "fieldName" : "location_1",
+        "position" : 5,
+        "renderTypeName" : "location",
+        "tableColumnId" : 2408129,
+        "width" : 220,
+        "cachedContents" : {
+          "non_null" : 171,
+          "largest" : {
+            "latitude" : "39.266940000000034",
+            "human_address" : "{\"address\":\"Wicomico and Bayard Sts.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21230\"}",
+            "longitude" : "-76.62630000000001"
+          },
+          "null" : 0,
+          "top" : [ {
+            "item" : {
+              "latitude" : "39.282715815213734",
+              "human_address" : "{\"address\":\"416 Monroe Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21223\"}",
+              "longitude" : "-76.6467109421284"
+            },
+            "count" : 20
+          }, {
+            "item" : {
+              "latitude" : "39.321059618123286",
+              "human_address" : "{\"address\":\"3120 Erdman Avenue\",\"city\":\"\",\"state\":\"\",\"zip\":\"21213\"}",
+              "longitude" : "-76.57272668760766"
+            },
+            "count" : 19
+          }, {
+            "item" : {
+              "latitude" : "39.317348011827555",
+              "human_address" : "{\"address\":\"2439 Charles Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21218\"}",
+              "longitude" : "-76.61689946066649"
+            },
+            "count" : 18
+          }, {
+            "item" : {
+              "latitude" : "39.26934860143854",
+              "human_address" : "{\"address\":\"2300 Washington Boulevard\",\"city\":\"\",\"state\":\"\",\"zip\":\"21230\"}",
+              "longitude" : "-76.64942087026634"
+            },
+            "count" : 17
+          }, {
+            "item" : {
+              "latitude" : "39.32380255031262",
+              "human_address" : "{\"address\":\"2900 Barclay Street (Mosaic)\",\"city\":\"\",\"state\":\"\",\"zip\":\"21218\"}",
+              "longitude" : "-76.61110975181816"
+            },
+            "count" : 16
+          }, {
+            "item" : {
+              "latitude" : "39.328900494898825",
+              "human_address" : "{\"address\":\"3424 Elm Avenue\",\"city\":\"\",\"state\":\"\",\"zip\":\"21211\"}",
+              "longitude" : "-76.63118153080997"
+            },
+            "count" : 15
+          }, {
+            "item" : {
+              "latitude" : "39.297300000000064",
+              "human_address" : "{\"address\":\"436 W. Lafayette Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}",
+              "longitude" : "-76.60749999999996"
+            },
+            "count" : 14
+          } ],
+          "smallest" : {
+            "latitude" : "39.30189570183552",
+            "human_address" : "{\"address\":\"1000 N. Patterson Park Ave.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21205\"}",
+            "longitude" : "-76.58539753018476"
+          }
+        },
+        "format" : { },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      }, {
+        "id" : 141276586,
+        "name" : "image",
+        "dataTypeName" : "document",
+        "fieldName" : "image",
+        "position" : 6,
+        "renderTypeName" : "document",
+        "tableColumnId" : 2408156,
+        "width" : 330,
+        "cachedContents" : {
+          "non_null" : 171,
+          "null" : 0
+        },
+        "format" : { },
+        "subColumnTypes" : [ "content_type", "file_id", "filename", "size" ]
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Creative Commons Attribution 3.0 Unported",
+        "logoUrl" : "images/licenses/cc30by.png",
+        "termsLink" : "http://creativecommons.org/licenses/by/3.0/legalcode"
+      },
+      "metadata" : {
+        "rdfSubject" : "0"
+      },
+      "owner" : {
+        "id" : "6r9a-dfdj",
+        "displayName" : "Open Baltimore",
+        "roleName" : "administrator",
+        "screenName" : "Open Baltimore",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs", "use_data_connectors" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "6r9a-dfdj",
+        "displayName" : "Open Baltimore",
+        "roleName" : "administrator",
+        "screenName" : "Open Baltimore",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs", "use_data_connectors" ]
+      },
+      "tags" : [ "art", "mural", "painting" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ 100, "0187F951-AD6B-4050-BDE6-1AF48975FE39", 100, 1333086484, "393202", 1333086490, "393202", "{\n}", "1731 E. Chase St.", "Jennifer", "Rattigan", "2004", [ "{\"address\":\"1731 E. Chase St.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21213\"}", "39.303289014824315", "-76.59300639936833", null, false ], [ null, null, null, null ] ]
+, [ 101, "0692D4B8-86FC-4D8C-A288-7B97C5D3870A", 101, 1333086484, "393202", 1333086490, "393202", "{\n}", "N. Patterson Park Ave. and N. Gay St.", "Lyle", "Kissack", "2004", [ "{\"address\":\"N. Patterson Park Ave. and N. Gay St.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21213\"}", "39.31099620461538", "-76.58588376889628", null, false ], [ null, null, null, null ] ]
+, [ 75, "0B39BC81-907A-4759-AACF-9869ED7D78C8", 75, 1333086484, "393202", 1333086491, "393202", "{\n}", "1103 Brentwood Ave.", "Gary", "Mullen", "2000", [ "{\"address\":\"1103 Brentwood Ave.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.302920292792294", "-76.60957191114807", null, false ], [ null, null, null, null ] ]
+, [ 102, "1128FDB4-E704-4E32-8EE8-1A1EB087A35B", 102, 1333086484, "393202", 1333086491, "393202", "{\n}", "N. Patterson Park Ave. and N. Gay St.", "Alexander", "Martray", "2004", [ "{\"address\":\"N. Patterson Park Ave. and N. Gay St.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21213\"}", "39.31099620461538", "-76.58588376889628", null, false ], [ null, null, null, null ] ]
+, [ 9, "18EEB6C8-4361-4274-B416-53C00B419A97", 9, 1333086484, "393202", 1333087037, "393202", "{\n}", "711 N. Carey St.", "Deborah", "English", "1989", [ "{\"address\":\"711 N. Carey St.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21217\"}", "39.29702973350038", "-76.63862001269445", null, false ], [ "image/jpeg; charset=binary", "mav3nMczyXG9llGV1t-ChAblpY5vBRQtdeYKQnMmKo8", "English - 711 N. Carey Street.JPG", "181876" ] ]
+, [ 10, "06F03204-4E86-4C34-AF01-BF8F0404607A", 10, 1333086484, "393202", 1333087049, "393202", "{\n}", "141 S. Central Ave.", "Donna", "McCullough", "1989", [ "{\"address\":\"141 S. Central Ave.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.28932254370926", "-76.59946353153873", null, false ], [ "image/jpeg; charset=binary", "3FNrFd_XXQGkMvw0yyJCnL4EzQLBDJ77JG9691u55MU", "mccullough-141 s central ave.JPG", "165633" ] ]
+, [ 13, "08C43E29-7464-4749-904B-536771DAD821", 13, 1333086484, "393202", 1333088999, "393202", "{\n}", "1611 Carey St.", "Pontella", "Mason", "1990", [ "{\"address\":\"1611 Carey St.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21217\"}", "39.3077757819037", "-76.6413821657709", null, false ], [ "image/jpeg; charset=binary", "evXoBq6ZlVrYMft4l5cE2HCj4SQorAzOFYkec69WDNg", "mason-carey & cumberland.jpg", "3759322" ] ]
+, [ 15, "06DCFE87-FD3A-4DF0-B57D-BD36E5E99B0B", 15, 1333086484, "393202", 1333089087, "393202", "{\n}", "2229 1/2 W. Pratt St.", "James", "Voshell", "1990", [ "{\"address\":\"2229 1/2 W. Pratt St.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21223\"}", "39.284897879325115", "-76.65235266008187", null, false ], [ "image/jpeg; charset=binary", "SPRvi2RI3Pl15prfuZ80nAlGZ_lgCsCxCSwt7-E9UP4", "voshell-2229.5 w pratt st.jpg", "90228" ] ]
+, [ 30, "200C23F2-3808-4265-BF38-72AF3AE02AB0", 30, 1333086484, "393202", 1333089438, "393202", "{\n}", "400 N. Pulaski St.", "Archie", "Veale", "1994", [ "{\"address\":\"400 N. Pulaski St.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21223\"}", "39.292804555825306", "-76.65038238493479", null, false ], [ "image/jpeg; charset=binary", "pm-WHuygg1Lle38AFItdwpZkBD1fKIY1rZTg3jT3ZxA", "veale-400 n pulaski st.JPG", "136416" ] ]
+, [ 33, "0C402493-62CB-4FFF-9CF8-926257E16F7A", 33, 1333086484, "393202", 1333089506, "393202", "{\n}", "2324 McElderry St.", "Patrick", "Jacobson", "1995", [ "{\"address\":\"2324 McElderry St.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21205\"}", "39.29765925892087", "-76.58422002314211", null, false ], [ "image/jpeg; charset=binary", "MT9IQB8HEn1FygD0SAKQgM9bLm0j01zkgHiAlQUXpOo", "jacobson-2324 mcelderry st - hope for the children.JPG", "202616" ] ]
+, [ 39, "0EBA618C-7DD7-4B05-9BC1-F58EEDA0D0EB", 39, 1333086484, "393202", 1333089674, "393202", "{\n}", "401E. Lorraine St.", "Erik", "Warren", "1996", [ "{\"address\":\"401E. Lorraine St.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21218\"}", "39.32947000000013", "-76.60331999999988", null, false ], [ "image/jpeg; charset=binary", "T0M2ttTYz_M2GrN8KbIER-DI1E9M1abOp5OD219MSAY", "warren-401 e lorriane st.JPG", "159929" ] ]
+, [ 55, "0BCAB0FC-E78C-48E9-8FB7-B53A1AE50B18", 55, 1333086484, "393202", 1333090993, "393202", "{\n}", "900 N. Bond St.", "Archie", "Veale", "1998", [ "{\"address\":\"900 N. Bond St.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21205\"}", "39.30043783617391", "-76.59641450253403", null, false ], [ "image/jpeg; charset=binary", "6_tQr_6NNc0uPlQFLQ8JdO5uVVVuwT355UTcnTL6syc", "Veale- 900 N. Bond.JPG", "189584" ] ]
+, [ 57, "0EB60803-7DD6-4C59-ACEC-7C5F57A8F0C6", 57, 1333086484, "393202", 1333091063, "393202", "{\n}", "343 Scott St.", "Mary", "Carfagno Ferguson", "1999", [ "{\"address\":\"343 Scott St.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21230\"}", "39.2838996318726", "-76.62888035511713", null, false ], [ "image/jpeg; charset=binary", "pTOY2ES_4Xb3JP9OXwFz_jP_RwBiwhOVlTFngTtixic", "Ferguson - 343 Scott Street.JPG", "1552253" ] ]
+, [ 71, "0BC336C6-4A81-48A3-B4F4-953F222AC96E", 71, 1333086484, "393202", 1333091496, "393202", "{\n}", "2124 Mura St.", "Charles", "Lawrence", "2000", [ "{\"address\":\"2124 Mura St.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21213\"}", "39.30508765888288", "-76.58733167736347", null, false ], [ "image/jpeg; charset=binary", "oQjstVFiHF-mpJMUaEw8JEVyRaesEidCIOoE42LqblA", "lawrance  2122 mura st 2.4.04 2.jpg", "239328" ] ]
+, [ 89, "032AB5BA-5A71-42FD-877F-6A2107A993A6", 89, 1333086484, "393202", 1333091899, "393202", "{\n}", "1115 Hollins St.", "Espi and Jennifer", "Frazier and Rattigan", "2003", [ "{\"address\":\"1115 Hollins St.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21223\"}", "39.28738000812598", "-76.63570620931955", null, false ], [ "image/jpeg; charset=binary", "teBaFn9CBRqVu2r-eeW-oBeW2be8XJi6SvjGyGDZT-w", "frazier & rattigan - 1115 hollins st 3.JPG", "1464067" ] ]
+, [ 113, "1765094A-58FE-499B-87AC-CB5CC3505AEC", 113, 1333086484, "393202", 1333092380, "393202", "{\n}", "Baltimore Farmer's Market - Holliday and Saratoga Streets", "Bill", "Remington", "2006", [ "{\"address\":\"Baltimore Farmer's Market - Holliday and Saratoga Streets\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.297300000000064", "-76.60749999999996", null, false ], [ "image/jpeg; charset=binary", "hu7NN9-6uqK77AcR0nUhN9tyfX0-YgmkV79CzIROZqA", "b. remington 2.JPG", "2995166" ] ]
+, [ 140, "09D1E9DE-7FBF-4443-B344-84879736B9D9", 140, 1333086484, "393202", 1333093113, "393202", "{\n}", "2424 McElderry Street", "Pontella", "Mason", "2007", [ "{\"address\":\"2424 McElderry Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21205\"}", "39.29776877923117", "-76.58289911054764", null, false ], [ "image/jpeg; charset=binary", "j3IwFIb_B4xuCeUpdjevNbp7ynpkrwXd9UwVxcyskB8", "P Mason 2424 McElderry.JPG", "3964064" ] ]
+, [ 146, "1AD1746B-9B1A-41FC-AA72-5B26DC9F47A2", 146, 1333086484, "393202", 1333093237, "393202", "{\n}", "Baltimore Farmer's Market - Holliday and Saratoga Streets", "Donald ", "Tyson", "2008", [ "{\"address\":\"Baltimore Farmer's Market - Holliday and Saratoga Streets\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.297300000000064", "-76.60749999999996", null, false ], [ "image/jpeg; charset=binary", "GHhG1CzShY0J_hYfU5grVq5XtmaFqV33TFz0-piUh2k", "Donald Tyson Farmers Market 08.jpg", "114514" ] ]
+, [ 164, "1BB99C8A-14B1-447E-990B-FF225683AEED", 164, 1333086484, "393202", 1333093692, "393202", "{\n}", "519 S. Highland Street", "Joel", "Bergner", "2008", [ "{\"address\":\"519 S. Highland Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21205\"}", "39.302410000000066", "-76.56324999999987", null, false ], [ "image/jpeg; charset=binary", "DofIDyWm3TmSfvYRuaXms8B1Cb5BZ0hfGHcNP-QWuoU", "J. Bergner 519 S. HIghland.jpg", "166409" ] ]
+, [ 189, "06C0527F-F98B-4D75-8841-6F4223810918", 189, 1333086484, "393202", 1333094323, "393202", "{\n}", "2439 Charles Street", "Greg ", "Gannon", "2011", [ "{\"address\":\"2439 Charles Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21218\"}", "39.317348011827555", "-76.61689946066649", null, false ], [ "image/jpeg; charset=binary", "6QBqaXWCRN7vNLShGsBqof52cfKotGDcVfsvP3bbQaY", "2439 N. Charles G. Gannon.JPG", "4626923" ] ]
+, [ 98, "322517FC-3FDD-4AEA-9BBB-E8EB7D9FEE7E", 98, 1333086484, "393202", 1333086492, "393202", "{\n}", "1620 Bush St.", "Shawn", "James and Mural Masters", "2004", [ "{\"address\":\"1620 Bush St.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21230\"}", "39.27469956751287", "-76.63308018899397", null, false ], [ null, null, null, null ] ]
+, [ 183, "38BD2AC2-630E-4564-99E7-F8F1DBB6DAF2", 183, 1333086484, "393202", 1333086492, "393202", "{\n}", "2009 Annapolis Road", "Lyle ", "Kissack", "2011", [ "{\"address\":\"2009 Annapolis Road\",\"city\":\"\",\"state\":\"\",\"zip\":\"21230\"}", "39.26682150653619", "-76.6316412737471", null, false ], [ null, null, null, null ] ]
+, [ 112, "4D6A6D23-E230-4BA8-9F20-F2ED399BBD6A", 112, 1333086484, "393202", 1333086494, "393202", "{\n}", "Key Highway under I95", "Michael", "Kirby", "2005", [ "{\"address\":\"Key Highway under I95\",\"city\":\"\",\"state\":\"\",\"zip\":\"21230\"}", "39.26492918622983", "-76.59230257036342", null, false ], [ null, null, null, null ] ]
+, [ 8, "2A7EED8B-CE1E-44C3-B6A7-4A3EF791D0E8", 8, 1333086484, "393202", 1333086984, "393202", "{\n}", "1200 Hollins Street, Hollins Market Parking Lot", "Chevelle M.", "Moore Jones", "1988", [ "{\"address\":\"1200 Hollins Street, Hollins Market Parking Lot\",\"city\":\"\",\"state\":\"\",\"zip\":\"21223\"}", "39.28764946593816", "-76.63671198815629", null, false ], [ "image/jpeg; charset=binary", "WCSfeADmSStVLO47Wfv-jkqsITwMFWc42q_7uSlbVAM", "moore jones - 1200 hollins st market parking lot.JPG", "162097" ] ]
+, [ 16, "46077248-FD23-4423-ADC5-BA90A7DF7803", 16, 1333086484, "393202", 1333089121, "393202", "{\n}", "1339 E. North Ave.", "Tom", "Miller", "1991", [ "{\"address\":\"1339 E. North Ave.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21213\"}", "39.31189552664472", "-76.59960742306345", null, false ], [ "image/jpeg; charset=binary", "fEIshumQ7P91h81sKxPQBTiF1gapbe1curPkvZHyJCA", "miller-1339 e north ave.JPG", "164445" ] ]
+, [ 18, "3450A7E0-939E-4B96-9DAC-3AB630D27A24", 18, 1333086484, "393202", 1333089163, "393202", "{\n}", "5801 Reisterstown Rd.", "James", "Voshell", "1991", [ "{\"address\":\"5801 Reisterstown Rd.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21215\"}", "39.350728251869896", "-76.69460280901836", null, false ], [ "image/jpeg; charset=binary", "cy37OmoWICjyQB5eRFj_GEptEMrilqemDObrREi39II", "voshell - 6000 reisterstown rd - ncf.jpg", "81923" ] ]
+, [ 21, "2F87F598-051C-4A07-93AC-DDE7CA2C5245", 21, 1333086484, "393202", 1333089234, "393202", "{\n}", "1339 E. North Ave.", "Tom", "Miller", "1992", [ "{\"address\":\"1339 E. North Ave.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21213\"}", "39.31189552664472", "-76.59960742306345", null, false ], [ "image/jpeg; charset=binary", "0ki7_5mCamA5DXbJsO9KsZUMKPb2LoGibHZogLdfsu0", "miller - harford & north.JPG", "1644425" ] ]
+, [ 25, "3AF1FF8D-AEC6-489A-B50C-280386BC4866", 25, 1333086484, "393202", 1333089300, "393202", "{\n}", "Russell and Hamburg Sts.", "Unknown", "Wyland", "1993", [ "{\"address\":\"Russell and Hamburg Sts.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21230\"}", "39.266940000000034", "-76.62630000000001", null, false ], [ "image/jpeg; charset=binary", "ihoPN3LI0b7omvpxO-b75vj3kxplzOHxh-IGY2gFXlI", "wyland - 600 W Hamburg.jpg", "23650" ] ]
+, [ 31, "3AD07445-3D5F-47C2-9EA2-4917C331F731", 31, 1333086484, "393202", 1333089445, "393202", "{\n}", "905 Lemmon Street", "John", "Ellsberry", "1994", [ "{\"address\":\"905 Lemmon Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21223\"}", "39.28633679457198", "-76.63246865001406", null, false ], [ "image/jpeg; charset=binary", "6gNSZjdMOdvLOIwmmME3-PlhIgwPnk8hwQj1725or6Q", "ellsberry-905 lemmon st.JPG", "206715" ] ]
+, [ 44, "4FB92CA8-E81A-4819-973B-515E0B9B0443", 44, 1333086484, "393202", 1333089930, "393202", "{\n}", "1000 N. Patterson Park Ave.", "Lyle and Gerald", "Kissack and Ross", "1997", [ "{\"address\":\"1000 N. Patterson Park Ave.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21205\"}", "39.30189570183552", "-76.58539753018476", null, false ], [ "image/jpeg; charset=binary", "W874qxfXcU-_GlpkmNsrOWWB2PWPUZPPlZ7m9-s62RU", "kissack & ross-1000 N. Patterson Park Ave 1.JPG", "199804" ] ]
+, [ 51, "467CCB20-A3EC-4C12-96D6-4A67AF6F9941", 51, 1333086484, "393202", 1333090920, "393202", "{\n}", "1756 E. Preston St.", "Mary", "Carfagno Ferguson", "1998", [ "{\"address\":\"1756 E. Preston St.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21213\"}", "39.30541141481342", "-76.59271861631896", null, false ], [ "image/jpeg; charset=binary", "-Ww8s3wudL0pE47_Ww-4gH46ddgu_J_qDK3CuTnXbB4", "ferguson 1756 e preston st 2.4.04.jpg", "222760" ] ]
+, [ 79, "44A2FF55-5970-4B62-98FF-58B3142B0A2E", 79, 1333086484, "393202", 1333091545, "393202", "{\n}", "James St. near Ramsey St.", "Tony", "Shore and Area skateboarders", "2000", [ "{\"address\":\"James St. near Ramsey St.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21230\"}", "39.266940000000034", "-76.62630000000001", null, false ], [ "image/jpeg; charset=binary", "JvdNDhlqHASFy0OOlnfaDhWp4GTKoQ6V7XsupWF2Hhg", "shore - ramsay & james sts 5 3.04 .JPG", "250068" ] ]
+, [ 119, "294FB13C-1C4F-45B8-A774-3924EE00C139", 119, 1333086484, "393202", 1333092477, "393202", "{\n}", "Baltimore Farmer's Market - Holliday and Saratoga Streets", "Laura Lynn", "Emberson", "2006", [ "{\"address\":\"Baltimore Farmer's Market - Holliday and Saratoga Streets\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.297300000000064", "-76.60749999999996", null, false ], [ "image/jpeg; charset=binary", "6J4nYvhHkDKtZfqrg6wBcZS57jNEVR34dGe_zMJxGhU", "L.L. Emberson Farmer's Market 005.jpg", "189007" ] ]
+, [ 122, "30501858-EABA-4A35-AC1C-7BB64B88CE91", 122, 1333086484, "393202", 1333092617, "393202", "{\n}", "27th and Greenmount", "Cindy and Lyle", "Garcia and Kissack", "2006", [ "{\"address\":\"27th and Greenmount\",\"city\":\"\",\"state\":\"\",\"zip\":\"21218\"}", "39.32947000000013", "-76.60331999999988", null, false ], [ "image/jpeg; charset=binary", "urW9R1mu_QlfRVdZpof0SAXzOYCD0XDZOMce6IAqRZ0", "27th and Greenmount Cindy Garcia and Lyle Kissack MACA.jpg", "1848800" ] ]
+, [ 125, "3D736544-E416-48AF-B2FE-5AD827C2A2A5", 125, 1333086484, "393202", 1333092660, "393202", "{\n}", "3801 Eastern Avenue", "Michael", "Kirby", "2006", [ "{\"address\":\"3801 Eastern Avenue\",\"city\":\"\",\"state\":\"\",\"zip\":\"21224\"}", "39.286723503044584", "-76.56480366052949", null, false ], [ "image/jpeg; charset=binary", "8lVpaPgRifZMWT0JuEBK2TWtB0BqEbYFxYOxT6CFqMo", "M. Kirby Highlandtown.JPG", "651250" ] ]
+, [ 139, "3D607E28-D60D-45F5-B5B4-70BD0D1C276A", 139, 1333086484, "393202", 1333093088, "393202", "{\n}", "Baltimore Farmer's Market - Holliday and Saratoga Streets", "Michelle", "Santos", "2007", [ "{\"address\":\"Baltimore Farmer's Market - Holliday and Saratoga Streets\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.297300000000064", "-76.60749999999996", null, false ], [ "image/jpeg; charset=binary", "o-2j8tgW7XZyx5XhbtUUdgpiwAZwQkJdiPObufxxmeQ", "M Santos Detail 2.jpg", "695183" ] ]
+, [ 154, "39AE3649-D534-4157-9072-3FB13BA2EF53", 154, 1333086484, "393202", 1333093439, "393202", "{\n}", "601 E. 33rd Street", "Michael", "Owens", "2008", [ "{\"address\":\"601 E. 33rd Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21218\"}", "39.328317146899735", "-76.6077462874286", null, false ], [ "image/jpeg; charset=binary", "Otl20JDbEEH8L0mEiu_uP_ZGkBmV5pyTreTRRPxV2Ws", "Michael Owen Waverly Giant Mural Panel 3.jpg", "14886" ] ]
+, [ 193, "54BF4C43-EEA6-4692-88BB-FF8C0F02DCB7", 193, 1333086484, "393202", 1333094359, "393202", "{\n}", "436 W. Lafayette Street", "Joel", "Bergner", "2011", [ "{\"address\":\"436 W. Lafayette Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.297300000000064", "-76.60749999999996", null, false ], [ "image/jpeg; charset=binary", "JJ0GzN5bY4baL6xg8MPd57UavNjvJ7T8T6U1vW3O97o", "436 J. Bergner side.JPG", "5012406" ] ]
+, [ 141, "215ED559-CA3B-41DC-80F3-BAD637AE783E", 141, 1333086484, "393202", 1333111222, "405090", "{\n}", "592 Presstman Street", "Lyle ", "Kissack", "2007", [ "{\"address\":\"592 Presstman Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21217\"}", "39.30561263124648", "-76.63824285197951", null, false ], [ "image/jpeg; charset=binary", "W_2qfsbzm0AMd5-76Kp340WmqzNLSvVf6Fda3MlgSwk", "Newborn 592 Presstman L. Kissack.jpg", "555229" ] ]
+, [ 17, "6C409488-13C8-4886-9D75-30369E1BCA73", 17, 1333086484, "393202", 1333089145, "393202", "{\n}", "5700 York Rd.", "Antonio", "Rodriquez", "1991", [ "{\"address\":\"5700 York Rd.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21212\"}", "39.359451675554055", "-76.6099226467395", null, false ], [ "image/jpeg; charset=binary", "0ZmEgH04uimAKc9s3hWSab5K1vGvLG77f1irV85E30I", "rodriquez-525 benninghaus rd.JPG", "134338" ] ]
+, [ 27, "6AD23693-58EE-420E-8E73-8580E459CBAF", 27, 1333086484, "393202", 1333089414, "393202", "{\n}", "2000 E. Pratt St.", "Mary", "Carfagno Ferguson", "1994", [ "{\"address\":\"2000 E. Pratt St.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21231\"}", "39.289448448793394", "-76.58881555871181", null, false ], [ "image/jpeg; charset=binary", "S5LoGjWCmPhQTuvJ3N67ILl8wSSDaqIK3oME7MSUS5Y", "ferguson-2000 e pratt st.JPG", "176366" ] ]
+, [ 35, "59F5BC98-8D75-4B85-9DC8-F44F28410D5A", 35, 1333086484, "393202", 1333089520, "393202", "{\n}", "2009 Annapolis Rd.", "Patricia", "Stoakley", "1995", [ "{\"address\":\"2009 Annapolis Rd.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21230\"}", "39.26682150653619", "-76.6316412737471", null, false ], [ "image/jpeg; charset=binary", "pakZ97C2-5Q1gEsfWBC_tfZWHwod7JE_7WpolJ2QVCk", "stoakley-2009 annapolis rd.JPG", "207806" ] ]
+, [ 36, "7408A800-5905-41E4-96D7-5CF61917533A", 36, 1333086484, "393202", 1333089658, "393202", "{\n}", "886 Washington Blvd.", "Mary", "Carfagno Ferguson", "1996", [ "{\"address\":\"886 Washington Blvd.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21230\"}", "39.282892391199766", "-76.63094879578455", null, false ], [ "image/jpeg; charset=binary", "AXQFXUGsFhOVghGykJxvleqy3s0iPLiiH6wBjg2Pc_I", "ferguson-886 washington blvd.JPG", "194139" ] ]
+, [ 45, "692C7473-D604-4703-9058-E821C8640749", 45, 1333086484, "393202", 1333089967, "393202", "{\n}", "2117  E. North Ave.", "Pontella", "Mason", "1997", [ "{\"address\":\"2117 E. North Ave.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.297300000000064", "-76.60749999999996", null, false ], [ "image/jpeg; charset=binary", "IbSo-ZDSEbT7vZuTUqNtaFFe-tu69hZc8BwB0KqJXko", "mason-2117 or 2125 e north ave.JPG", "175449" ] ]
+, [ 52, "62408FE0-6074-4D3E-9DD1-CFD67AEE28F0", 52, 1333086484, "393202", 1333090938, "393202", "{\n}", "1219 Bayard St.", "Mary", "Carfagno Ferguson", "1998", [ "{\"address\":\"1219 Bayard St.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21230\"}", "39.2790342996941", "-76.6360119788095", null, false ], [ "image/jpeg; charset=binary", "jOvc70tOlQ3YJUn4vbwKimiFnGGbr-9owrQOGIs-ges", "ferguson_bayard.jpg", "1071291" ] ]
+, [ 53, "6334BB69-A0E7-45AC-AD20-269313E37184", 53, 1333086484, "393202", 1333090963, "393202", "{\n}", "600 Cherry Hill Rd.", "Tom", "Miller", "1998", [ "{\"address\":\"600 Cherry Hill Rd.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21225\"}", "39.25000418458825", "-76.62289087040199", null, false ], [ "image/jpeg; charset=binary", "c1hOHx3AgCazTsfcpCDqkuVWdXB13xhekbkgJQvkqLo", "miller-600 cherry hill rd.JPG", "156912" ] ]
+, [ 70, "74FA8FCC-ED3C-4BB1-AE0C-1BB54BA27232", 70, 1333086484, "393202", 1333091471, "393202", "{\n}", "4004 Frederick Ave.", "Lyle", "Kissack", "2000", [ "{\"address\":\"4004 Frederick Ave.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21229\"}", "39.281759245442856", "-76.68254290060548", null, false ], [ "image/jpeg; charset=binary", "0v0JmVjOe8L9udhMIp6QlAQNTHQDdRr6XWRA8up8AJY", "kissack - 4004 Frederick Ave.jpg", "55430" ] ]
+, [ 111, "749C9DD2-54BD-4754-98D8-2599D4142DA0", 111, 1333086484, "393202", 1333092291, "393202", "{\n}", "1601 N. Calhoun St.", "Benari", "Stewart and Urban Xperience", "2005", [ "{\"address\":\"1601 N. Calhoun St.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21217\"}", "39.30672116781016", "-76.64185570336787", null, false ], [ "image/jpeg; charset=binary", "buxmRgmrXMlwtwD_VD64KPG3NqkLSzQ39yXa-ahPte8", "ABS-Benari Stewarts.jpg", "2490578" ] ]
+, [ 116, "612A2166-C687-4925-BC1D-0E79566EB7C0", 116, 1333086484, "393202", 1333092427, "393202", "{\n}", "Baltimore Farmer's Market - Holliday and Saratoga Streets", "Guy", "Jones", "2006", [ "{\"address\":\"Baltimore Farmer's Market - Holliday and Saratoga Streets\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.297300000000064", "-76.60749999999996", null, false ], [ "image/jpeg; charset=binary", "rZTN0dXIvmnMx0p5SI3z-pbrtGNGwYyVP64BP2wnaXs", "g. jones 2.JPG", "1780465" ] ]
+, [ 114, "70C17BF2-1F6C-46D6-B04B-C95678C6EEC1", 114, 1333086484, "393202", 1333092706, "393202", "{\n}", "Baltimore Farmer's Market - Holliday and Saratoga Streets", "Charles ", "Lawrence", "2006", [ "{\"address\":\"Baltimore Farmer's Market - Holliday and Saratoga Streets\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.297300000000064", "-76.60749999999996", null, false ], [ "image/jpeg; charset=binary", "x1CDgWLlTxrkboAUjw0zSkB4iGoKkk7Au00E6gRuOEk", "Charles Lawrence Farmer's Market.jpg", "2751237" ] ]
+, [ 144, "66F72022-EC5E-4D89-A094-3E6704BEC7C6", 144, 1333086484, "393202", 1333093174, "393202", "{\n}", "1398 Mt Royal Avenue, Midtown Academy (interior)", "Shawn", "James", "2007", [ "{\"address\":\"1398 Mt Royal Avenue, Midtown Academy (interior)\",\"city\":\"\",\"state\":\"\",\"zip\":\"21217\"}", "39.308377667711596", "-76.62196512234492", null, false ], [ "image/jpeg; charset=binary", "27lxXAjWbg9Ef1v_rOXuhhOlOZ6MyJCMaOUBvSaU6jk", "Shawn James and Midtown Academy 2007.jpg", "214986" ] ]
+, [ 171, "618FB308-3819-408E-9021-666FBD93AAA1", 171, 1333086484, "393202", 1333093837, "393202", "{\n}", "3030 Jefferson Street, Elwood Park", "Mark", "Selby", "2009", [ "{\"address\":\"3030 Jefferson Street, Elwood Park\",\"city\":\"\",\"state\":\"\",\"zip\":\"21205\"}", "39.302410000000066", "-76.56324999999987", null, false ], [ "image/jpeg; charset=binary", "8_FOp6rz5jYuhNXnc9Rp1j9ZSLKk00iQKrCFZDsjTQw", "Mark Selby - Ellwood Park 1.JPG", "690503" ] ]
+, [ 178, "5EFAA14C-880C-4EF0-A5AC-6642162D92C8", 178, 1333086484, "393202", 1333094061, "393202", "{\n}", "401 Whitridge Street", "Lyle", "Kissack", "2010", [ "{\"address\":\"401 Whitridge Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21218\"}", "39.32152483305248", "-76.61107265930985", null, false ], [ "image/jpeg; charset=binary", "PcOOpS8yc3_kVnEjVr6CN62yXeSgRWW3hKCDCz9CRHg", "401 Whitridge l. Kissack.JPG", "4815026" ] ]
+, [ 181, "75BCB71F-3D5F-48C5-8040-DE0A733B0939", 181, 1333086484, "393202", 1333094124, "393202", "{\n}", "700 N. Calhoun Street, Harlem Park Recreation Center", "John ", "Marra", "2010", [ "{\"address\":\"700 N. Calhoun Street, Harlem Park Recreation Center\",\"city\":\"\",\"state\":\"\",\"zip\":\"21217\"}", "39.31194000000011", "-76.64039000000002", null, false ], [ "image/jpeg; charset=binary", "2RcgYNuIbIaSOHrfXXZSAxm_hyMw1NtRRAwydIoSqzw", "Marra Harlem Park Rec.JPG", "1095739" ] ]
+, [ 184, "66EF3631-ADFB-4B65-9E26-B2F9752A0168", 184, 1333086484, "393202", 1333094214, "393202", "{\n}", "1940 Druid Hill Avenue", "Michelle ", "Santos", "2011", [ "{\"address\":\"1940 Druid Hill Avenue\",\"city\":\"\",\"state\":\"\",\"zip\":\"21217\"}", "39.30739891649819", "-76.63519359576281", null, false ], [ "image/jpeg; charset=binary", "pAgBV3A_6oqhB02RW-Op56XpMxIEtOtnizin3DMGKO4", "1940 Druid Hill M. Santos.JPG", "2486654" ] ]
+, [ 186, "56336688-CDA3-42FF-9447-1AB48204C31C", 186, 1333086484, "393202", 1333094246, "393202", "{\n}", "1137 Harford Road", "Jessie ", "Unterhalter", "2011", [ "{\"address\":\"1137 Harford Road\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.30374711117455", "-76.60216965784299", null, false ], [ "image/jpeg; charset=binary", "XwLIIa02vUv2hZ9KbFISkXQIuEMengKmIVb2bGABGqA", "1137 Harford J. Unterhalter.JPG", "4605980" ] ]
+, [ 136, "6194EB26-A807-410C-AB7F-5CF1A4482A23", 136, 1333086484, "393202", 1333111279, "405090", "{\n}", "Baltimore Farmer's Market - Holliday and Saratoga Streets", "Brooks", "Todd", "2007", [ "{\"address\":\"Baltimore Farmer's Market - Holliday and Saratoga Streets\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.297300000000064", "-76.60749999999996", null, false ], [ "image/jpeg; charset=binary", "rk-7xMOI6onmQOtokfkYX5Hf-oOeeky02TgxG--kjGQ", "M. Todd FM 07.jpg", "902243" ] ]
+, [ 62, "59B81659-E04C-46F4-932E-19610FB67178", 62, 1333086484, "393202", 1333621263, "405090", "{\n}", "450 E. 22nd St.", "Lyle", "Kissack", "1999", [ "{\"address\":\"450 E. 22nd St.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21218\"}", "39.31451255374998", "-76.60966184335098", null, false ], [ "image/jpeg; charset=binary", "tsVc2_PTp9X90ceLdh6WnmvXOf0VJ_ygp1C-0HCuDc0", "Kissack Mural.jpg", "2618028" ] ]
+, [ 97, "8F07043D-6C95-4AE1-98D2-FF2BE58005AF", 97, 1333086484, "393202", 1333086497, "393202", "{\n}", "Wicomico and Bayard Sts.", "Shawn", "James and Mural Masters", "2004", [ "{\"address\":\"Wicomico and Bayard Sts.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21230\"}", "39.266940000000034", "-76.62630000000001", null, false ], [ null, null, null, null ] ]
+, [ 29, "81C4EBF2-11DD-4122-8FF2-49E17FE0A667", 29, 1333086484, "393202", 1333089429, "393202", "{\n}", "903 N. Stricker St.", "Pontella", "Mason", "1994", [ "{\"address\":\"903 N. Stricker St.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21217\"}", "39.29909817416774", "-76.64155180250998", null, false ], [ "image/jpeg; charset=binary", "CKiOkm5cSIL9JnWdqAYX9ZnK-au9g8uacEi6qU_nf8g", "mason-903 North Stricker St.JPG", "213664" ] ]
+, [ 50, "8E7CBF62-3753-4E5D-997B-391F7FD1CB97", 50, 1333086484, "393202", 1333090906, "393202", "{\n}", "Ramsay and Cross Sts.", "John", "Ellsberry", "1998", [ "{\"address\":\"Ramsay and Cross Sts.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21230\"}", "39.266940000000034", "-76.62630000000001", null, false ], [ "image/jpeg; charset=binary", "oEjY-1T-0FNxENlY9ikMLqKpqBpUUm6_w71QbMfKL1c", "ellsberry-ramsay & cross sts, b&o.JPG", "148871" ] ]
+, [ 63, "8D0A365A-C0DD-450A-BEE2-1AF000678B66", 63, 1333086484, "393202", 1333091248, "393202", "{\n}", "801 McCulloh St.", "Gary", "Mullen", "1999", [ "{\"address\":\"801 McCulloh St.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21201\"}", "39.29868448603429", "-76.62299878904554", null, false ], [ "image/jpeg; charset=binary", "p9ctYeW9Ymj7sAGnxDV6XTSXiRsKbw7sfvWg9EGrCY8", "mullen - 801 mccullough 2.4.04.jpg", "203350" ] ]
+, [ 91, "92A134A0-E3C4-4137-8620-1AB691C5EFCD", 91, 1333086484, "393202", 1333092005, "393202", "{\n}", "North Ave and Harford Road", "Spoon and Dan", "Popkin and Van Allen", "2003", [ "{\"address\":\"North Ave and Harford Road\",\"city\":\"\",\"state\":\"\",\"zip\":\"21213\"}", "39.316199999999924", "-76.57662999999991", null, false ], [ "image/jpeg; charset=binary", "O-gc85fWCQx5k5e6ebFeuLXYjTodnv8Z268jrHhddP8", "miller - 1339 E north ave - restored.jpg", "496377" ] ]
+, [ 88, "9317D0BD-D78E-4F3B-A169-BD3EBAC39EFE", 88, 1333086484, "393202", 1333092020, "393202", "{\n}", "1928 Pennsylvania Avenue (mosaic)", "Julie and Leslie", "Stovall and Furlong", "2003", [ "{\"address\":\"1928 Pennsylvania Avenue (mosaic)\",\"city\":\"\",\"state\":\"\",\"zip\":\"21217\"}", "39.30581610972661", "-76.63742391439547", null, false ], [ "image/jpeg; charset=binary", "vPuecwZ3XZ-voL_8uHWfjXFLgKiWjm5YNZYa68Rz4WY", "penn ave.JPG", "1474247" ] ]
+, [ 117, "76B98EC7-2C4E-4551-B556-9AEFBEFDA799", 117, 1333086484, "393202", 1333092441, "393202", "{\n}", "Baltimore Farmer's Market - Holliday and Saratoga Streets", "Gary", "Mullen", "2006", [ "{\"address\":\"Baltimore Farmer's Market - Holliday and Saratoga Streets\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.297300000000064", "-76.60749999999996", null, false ], [ "image/jpeg; charset=binary", "Asv99hEg8aWPtxYizcmDBcXfcIo8VcSoVqwG3MJuulQ", "g. mullen.JPG", "2074078" ] ]
+, [ 121, "7E789FFB-E68D-46D9-BC2E-C71CC375071E", 121, 1333086484, "393202", 1333092687, "393202", "{\n}", "Baltimore Farmer's Market - Holliday and Saratoga Streets", "Nicolas ", "Tolls", "2006", [ "{\"address\":\"Baltimore Farmer's Market - Holliday and Saratoga Streets\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.297300000000064", "-76.60749999999996", null, false ], [ "image/jpeg; charset=binary", "xOgon1UjRkyBlg6JFdbRnNruQIkXYI_nZQ6GkR7rSAQ", "NicholasTolls.jpg", "136092" ] ]
+, [ 132, "7C6C3C50-0EBF-4312-B2DB-FE42E66AF8A7", 132, 1333086484, "393202", 1333092920, "393202", "{\n}", "Baltimore Farmer's Market - Holliday and Saratoga Streets", "Ernie", "Shaw", "2007", [ "{\"address\":\"Baltimore Farmer's Market - Holliday and Saratoga Streets\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.297300000000064", "-76.60749999999996", null, false ], [ "image/jpeg; charset=binary", "6deREQj4-LSksSR3JslTv3SAwPCRrZaC0BwyuqSWkFU", "E. Shaw Farmers' Market 07.jpg", "100995" ] ]
+, [ 147, "7ABF2F0B-4052-45E0-9563-EAB07F51F9AF", 147, 1333086484, "393202", 1333093258, "393202", "{\n}", "Baltimore Farmer's Market - Holliday and Saratoga Streets", "Joel", "Bergner", "2008", [ "{\"address\":\"Baltimore Farmer's Market - Holliday and Saratoga Streets\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.297300000000064", "-76.60749999999996", null, false ], [ "image/jpeg; charset=binary", "bNqeRCpPy31X355fvqOT_Hn-Ff0TOhOHDDCsteUOAA0", "Joel Bergner Farmers Market 08.jpg", "17199" ] ]
+, [ 161, "8BB5FA4B-DEBE-4B39-9057-03A601FE61EB", 161, 1333086484, "393202", 1333093625, "393202", "{\n}", "Herring Run Park, off Harford Road at Argonne", "Charles", "Lawrence", "2008", [ "{\"address\":\"Herring Run Park, off Harford Road at Argonne\",\"city\":\"\",\"state\":\"\",\"zip\":\"21218\"}", "39.32947000000013", "-76.60331999999988", null, false ], [ "image/jpeg; charset=binary", "C1K4CiFr94AznzB5w7izR7XTar3CFR_1lZs6eAMecg8", "Herring Run Park Charles Lawrance 2.JPG", "1135947" ] ]
+, [ 174, "87994206-01B6-492E-896C-447BEE789D49", 174, 1333086484, "393202", 1333093942, "393202", "{\n}", "2710 E. Hoffman Street, Fort Worthington Rec Center", "Tom", "Clayton", "2009", [ "{\"address\":\"2710 E. Hoffman Street, Fort Worthington Rec Center\",\"city\":\"\",\"state\":\"\",\"zip\":\"21213\"}", "39.316199999999924", "-76.57662999999991", null, false ], [ "image/jpeg; charset=binary", "zrg10h68JJm7wSxxeWUZt-t_PW8yaj2uyS5aJamECXE", "Tom Clayton Ft. Worthington Rec Center (1).JPG", "488287" ] ]
+, [ 176, "8E6DB493-D298-430E-AAB6-6BF7113ED116", 176, 1333086484, "393202", 1333094023, "393202", "{\n}", "221 Pulaski Street", "Michelle", "Santos", "2010", [ "{\"address\":\"221 Pulaski Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21223\"}", "39.290990093644965", "-76.65015279221784", null, false ], [ "image/jpeg; charset=binary", "3VlJvaaD_loKiA8niBAvsyRICbfp2eff1YT0Pof4AGQ", "221 Pulaski M. Santos.JPG", "4583158" ] ]
+, [ 152, "915949A0-E5EF-43B5-A72A-337CC02CEE47", 152, 1333086484, "393202", 1333110793, "405090", "{\n}", "601 E. 33rd Street", "Danamarie", "Hosler", "2008", [ "{\"address\":\"601 E. 33rd Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21218\"}", "39.328317146899735", "-76.6077462874286", null, false ], [ "image/jpeg; charset=binary", "jgZyh0WyAs23GAboNhRrDd_4Nj1ujlsMbwgV7wPz8Tc", "Danamaie Hosler Waverly Giant Mural Panel 5 2008.jpg", "70836" ] ]
+, [ 192, "8AA9F53C-98C2-4952-B99A-626B8E0B8C28", 192, 1333086484, "393202", 1333111626, "405090", "{\n}", "3424 Elm Avenue", "Charles", "Lawrence", "2011", [ "{\"address\":\"3424 Elm Avenue\",\"city\":\"\",\"state\":\"\",\"zip\":\"21211\"}", "39.328900494898825", "-76.63118153080997", null, false ], [ "image/jpeg; charset=binary", "W66cyIatj56fOCTIgcw7OKQrW6C64gfCXyGGx56vQA0", "IMG_0197[1]", "2185890" ] ]
+, [ 108, "9059C855-5EED-4321-ACC5-09F46AB68A02", 108, 1333086484, "393202", 1333111792, "405090", "{\n}", "4501 Curtis Avenue", "Peggy", "Ward", "2005", [ "{\"address\":\"4501 Curtis Avenue\",\"city\":\"\",\"state\":\"\",\"zip\":\"21226\"}", "39.225039005054896", "-76.5868010773662", null, false ], [ "image/jpeg; charset=binary", "-XggIgigxzzMsxNb9ypp_5bDTkBicZRM-DpWpGeRZWM", "IMG_0192[1]", "2169057" ] ]
+, [ 40, "91B45BB6-CD86-43BB-AFA7-EFCDFB57BE45", 40, 1333086484, "393202", 1333620245, "405090", "{\n}", "Greenmount Ave. and Venerable Ave.", "Robert", "Heironimus", "1996", [ "{\"address\":\"Greenmount Ave. and Venerable Ave.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21218\"}", "39.32947000000013", "-76.60331999999988", null, false ], [ "image/jpeg; charset=binary", "m-QGLtvi8btd6bllSy7ZecoOZabKRCLSytHw8eajfkA", "Heironomous Mural.jpg", "2718346" ] ]
+, [ 58, "90FD48E1-E95F-4171-8046-79541CFC494D", 58, 1333086484, "393202", 1333620832, "405090", "{\n}", "W. Ostend and James Sts.", "Mary and Terry", "Carfagno Ferguson and Van Tassell", "1999", [ "{\"address\":\"W. Ostend and James Sts.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21230\"}", "39.266940000000034", "-76.62630000000001", null, false ], [ "image/jpeg; charset=binary", "-7C22iH7j4gaPNq0NCz_aPtPm2hKzgbJuOCN8QTS4jk", "Skateboarding Mural.jpg", "2090653" ] ]
+, [ 190, "B229969B-47F4-42D2-9455-5A47DF0A2484", 190, 1333086484, "393202", 1333086499, "393202", "{\n}", "2300 Washington Boulevard", "Chris", "Peters", "2011", [ "{\"address\":\"2300 Washington Boulevard\",\"city\":\"\",\"state\":\"\",\"zip\":\"21230\"}", "39.26934860143854", "-76.64942087026634", null, false ], [ null, null, null, null ] ]
+, [ 43, "A8A56C5B-9F2C-4087-888C-111AA5435C80", 43, 1333086484, "393202", 1333089883, "393202", "{\n}", "Ramsey and Monroe Sts.", "Mary", "Carfagno Ferguson", "1997", [ "{\"address\":\"Ramsey and Monroe Sts.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21223\"}", "39.28365000000008", "-76.65196999999989", null, false ], [ "image/jpeg; charset=binary", "eYg91fBx86C72jGToGOQUgOaDuMVLu0S-aRszF1tvvM", "ferguson-ramsay & monroe sts.JPG", "159891" ] ]
+, [ 60, "AFCE5BAB-08DA-4814-ACAB-B74693DE8513", 60, 1333086484, "393202", 1333091116, "393202", "{\n}", "765 W. Cross St.", "Patrick", "Jacobson", "1999", [ "{\"address\":\"765 W. Cross St.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21230\"}", "39.27977174375809", "-76.62786412122404", null, false ], [ "image/jpeg; charset=binary", "KxccjdBhiBTqJ1BLDNyG8YLAwW-WuRAxV0wdMe9aUmA", "jacobson - 765 W Cross Street 2.JPG", "1266461" ] ]
+, [ 81, "997BC7D9-D201-4795-8248-5C6AAB798616", 81, 1333086484, "393202", 1333091638, "393202", "{\n}", "N. Stricker and W. Franklin Sts.", "Gary", "Mullen with Community Youth", "2001", [ "{\"address\":\"N. Stricker and W. Franklin Sts.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21223\"}", "39.28365000000008", "-76.65196999999989", null, false ], [ "image/jpeg; charset=binary", "OeSyr4lECLnXansyEWqOOvw2A8rs1Ob8iEb9uUAZxDg", "Mullen & community youth - stricker & Franklin sts.JPG", "1792910" ] ]
+, [ 90, "A9B223B4-0230-4B04-A3CA-FF36718EF93B", 90, 1333086484, "393202", 1333091861, "393202", "{\n}", "1800 block Hanover St", "Jennifer", "Rattigan and MICA CAP Program", "2003", [ "{\"address\":\"1800 block Hanover St\",\"city\":\"\",\"state\":\"\",\"zip\":\"21230\"}", "39.266940000000034", "-76.62630000000001", null, false ], [ "image/jpeg; charset=binary", "4F4XfD4M0oRVUXOD7gGiVYrjzRPwjg8Sr1KL7Sj3yyc", "rattigan - 1800 block hanover st 9.jpg", "1486438" ] ]
+, [ 131, "978C476D-612F-4B69-9168-F237B1AD797E", 131, 1333086484, "393202", 1333092902, "393202", "{\n}", "Baltimore Farmer's Market - Holliday and Saratoga Streets", "Danamarie", "Hosler", "2007", [ "{\"address\":\"Baltimore Farmer's Market - Holliday and Saratoga Streets\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.297300000000064", "-76.60749999999996", null, false ], [ "image/jpeg; charset=binary", "K3FpbTtHbWTy507gVO4qTSnL-Rk-JScTusSJnkGgqIo", "DM Hosler FM07.jpg", "2700072" ] ]
+, [ 133, "AC6BEB0E-8960-4B20-A1F7-E1F3082965E1", 133, 1333086484, "393202", 1333092938, "393202", "{\n}", "Baltimore Farmer's Market - Holliday and Saratoga Streets", "Gary", "Mullen", "2007", [ "{\"address\":\"Baltimore Farmer's Market - Holliday and Saratoga Streets\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.297300000000064", "-76.60749999999996", null, false ], [ "image/jpeg; charset=binary", "aAbCiGRMRqPDXnkEHlew82E7wb4pLNqfBOi4geHD34E", "G. Mullen FM 07.jpg", "2460178" ] ]
+, [ 153, "96299927-0B68-4072-A538-7F77553F663D", 153, 1333086484, "393202", 1333093415, "393202", "{\n}", "601 E. 33rd Street", "Gary ", "Mullen", "2008", [ "{\"address\":\"601 E. 33rd Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21218\"}", "39.328317146899735", "-76.6077462874286", null, false ], [ "image/jpeg; charset=binary", "OEXpKIpMflsb93QSk-SRb77KwSlTEEQe7VMEOYV3osc", "Gary Mullen 33rd and Greenmount Panel 2 2008.jpg", "65934" ] ]
+, [ 156, "A8028940-8BEA-4769-AB04-CF9481EEB32F", 156, 1333086484, "393202", 1333093482, "393202", "{\n}", "529 E. 21st Street", "Danamarie", "Hosler", "2008", [ "{\"address\":\"529 E. 21st Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21218\"}", "39.31355927239889", "-76.6086006433564", null, false ], [ "image/jpeg; charset=binary", "Koh9NlQ2vW4eGjU3acBDj3CfsJHq6op4UEwmTvi5aLk", "D. Hosler 529 E 21st 001.jpg", "72036" ] ]
+, [ 177, "B02BE4C7-E046-404D-BD09-3A910E90A86D", 177, 1333086484, "393202", 1333094047, "393202", "{\n}", "330 W. Lafayette Street", "Josh", "Van Horne", "2010", [ "{\"address\":\"330 W. Lafayette Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.297300000000064", "-76.60749999999996", null, false ], [ "image/jpeg; charset=binary", "OaOh8pwjIaMbT5cGYbvrZJ1QXSeBFw0RQteHnc2J5yU", "330 Lafayette J. vanHorne.JPG", "5753467" ] ]
+, [ 179, "AC36A4C8-B701-44AD-8845-505EC6F375E8", 179, 1333086484, "393202", 1333094078, "393202", "{\n}", "1818 W. Fayette Street", "Augustina", "Droze", "2010", [ "{\"address\":\"1818 W. Fayette Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21223\"}", "39.28950240811514", "-76.64601243977529", null, false ], [ "image/jpeg; charset=binary", "dXI4cLNWwnUC4ica-TERzIXs3MJN2ZOqvKpBhQl-DgQ", "1818 Fayette A. Droze.JPG", "4589142" ] ]
+, [ 180, "A50559B3-AD09-4189-BD60-224E267B516C", 180, 1333086484, "393202", 1333094100, "393202", "{\n}", "3313 Greenmount Avenue", "Tom", "Chalkley", "2010", [ "{\"address\":\"3313 Greenmount Avenue\",\"city\":\"\",\"state\":\"\",\"zip\":\"21218\"}", "39.32893767909991", "-76.60943701284367", null, false ], [ "image/jpeg; charset=binary", "WBOUy7t4KTEnMAFXbgoZCHcHA_1W9_BlVbKce8fd35A", "3313 greenmount T. Chalkely 1.jpg", "2820493" ] ]
+, [ 188, "A005E14C-8F23-4B44-9EB9-FA3B3A4E413E", 188, 1333086484, "393202", 1333094299, "393202", "{\n}", "3120 Erdman Avenue", "Paul ", "Bertholet", "2011", [ "{\"address\":\"3120 Erdman Avenue\",\"city\":\"\",\"state\":\"\",\"zip\":\"21213\"}", "39.321059618123286", "-76.57272668760766", null, false ], [ "image/jpeg; charset=binary", "TZIEau9xh6-baKmxaRwRSHgiTmY_BJ3o6diJQckOkFU", "3120 Erdman Ave detail2 P. Bertholet.JPG", "568797" ] ]
+, [ 159, "A51C3B33-C342-4ACD-A07E-CD4972438145", 159, 1333086484, "393202", 1333110720, "405090", "{\n}", "33rd and Greenmount Avenue", "Ernie, Charles and Donald", "Shaw, Lawrence and Tyson", "2008", [ "{\"address\":\"33rd and Greenmount Avenue\",\"city\":\"\",\"state\":\"\",\"zip\":\"21218\"}", "39.32947000000013", "-76.60331999999988", null, false ], [ "image/jpeg; charset=binary", "ad4WpdV1izATY4BWPigv1rh3yCr4M-MHB2QImIMpfrs", "Shaw, Lawrance, Tyson.jpg", "229377" ] ]
+, [ 143, "A25C583B-E46E-4E3B-938A-3265612607D0", 143, 1333086484, "393202", 1333110909, "405090", "{\n}", "210 Guilford Street ", "Danamarie", "Hosler", "2007", [ "{\"address\":\"210 Guilford Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.2914038296096", "-76.61116370376675", null, false ], [ "image/jpeg; charset=binary", "k_jdQPvUJ4AdYRHNQffjUO-w5pjhZBTC_n2_he_cQUQ", "Health Dept D. Hosler.jpg", "965197" ] ]
+, [ 126, "AD6C44A3-6E57-4443-B82E-6FC2E2C9D435", 126, 1333086484, "393202", 1333111354, "405090", "{\n}", "1327 Washington Boulevard, Barrister School (interior)", "Charles and Donald", "Carroll and Tyson", "2006", [ "{\"address\":\"1327 Washington Boulevard, Barrister School (interior)\",\"city\":\"\",\"state\":\"\",\"zip\":\"21230\"}", "39.28032465761226", "-76.63572931347767", null, false ], [ "image/jpeg; charset=binary", "-E9oH4xyf4QOt03UFhyb4kJalAPbAFfRuOSa-r7hG8U", "Charles Carroll 34 Donal Tyson.jpg", "69326" ] ]
+, [ 6, "9AE4579D-BCD7-4015-BE10-05044D4FB8E1", 6, 1333086484, "393202", 1333613380, "405090", "{\n}", "711 Poplar Grove", "Robbie", "Woodside", "1987", [ "{\"address\":\"711 Poplar Grove\",\"city\":\"\",\"state\":\"\",\"zip\":\"21216\"}", "39.310280000000034", "-76.67214999999999", null, false ], [ "image/jpeg; charset=binary", "guvLu8OnNkOfdrNMu6wPjvfn-PqVa9nIZHIu0cPTbTI", "Train Mural.jpg", "2405736" ] ]
+, [ 69, "AA3B17ED-CC31-41CD-A3EB-D7E5E11138CB", 69, 1333086484, "393202", 1333622234, "405090", "{\n}", "1740 Druid Hill Ave.", "Tom", "Miller and MICA", "2000", [ "{\"address\":\"1740 Druid Hill Ave.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21217\"}", "39.30584308938751", "-76.63329602628102", null, false ], [ "image/jpeg; charset=binary", "T4DM0VbEQ-pOf2FMMm8L--EzPHzxUgSkKzQmrBbs3jQ", "Marbel Hill Mural.jpg", "3131690" ] ]
+, [ 94, "ABDF9CA8-BF77-4DEF-BA49-7F613A876F1D", 94, 1333086484, "393202", 1334224024, "405090", "{\n}", "503 Oldham St.", "Shawn, Xenofon, et al", "McRaney, Kohilas, Konsalas, Perrelli, Cavocos", "2004", [ "{\"address\":\"503 Oldham St.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21224\"}", "39.28703448054869", "-76.55570960997416", null, false ], [ "image/jpeg; charset=binary", "BA38WxzqEMVoNGRUEPFwqSyEUMLmwRClKJMzIHbJeeY", "Greektown Mural.jpg", "2168626" ] ]
+, [ 106, "C327AEF4-5B9D-403F-84A1-F4E4833D442A", 106, 1333086484, "393202", 1333086499, "393202", "{\n}", "323 E. 20th St.", "Lyle", "Kissack", "2005", [ "{\"address\":\"323 E. 20th St.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21218\"}", "39.3124081402014", "-76.61164035181548", null, false ], [ null, null, null, null ] ]
+, [ 38, "C45F7579-6D21-487A-8E53-B9E36EA99642", 38, 1333086484, "393202", 1333089631, "393202", "{\n}", "North and Harford Rds.", "Tom", "Miller", "1996", [ "{\"address\":\"North and Harford Rds.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21213\"}", "39.316199999999924", "-76.57662999999991", null, false ], [ "image/jpeg; charset=binary", "m_N0IyxPDFZBwH7QEgJ2KSVsJ9WeTyIulRmsM9DOTdg", "miller - north ave & hartford rd (orig 1992) 3.jpg", "1521959" ] ]
+, [ 61, "CEA6A641-5D59-41E7-8818-7437ED62B087", 61, 1333086484, "393202", 1333091222, "393202", "{\n}", "1170 Carroll St.", "Shawn", "James", "1999", [ "{\"address\":\"1170 Carroll St.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21230\"}", "39.280967842057066", "-76.63281938560544", null, false ], [ "image/jpeg; charset=binary", "5xb6uGr6--9vb2deTXn-wM7FoVTHr9PplOUw__K5h48", "ShawnJames ostendmural.jpg", "940303" ] ]
+, [ 65, "D52BE5C3-42D6-4014-B7FA-A41332A3B987", 65, 1333086484, "393202", 1333091291, "393202", "{\n}", "2174 Hollins St.", "Ernest", "Shaw", "1999", [ "{\"address\":\"2174 Hollins St.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21223\"}", "39.28701276375379", "-76.65103901021284", null, false ], [ "image/jpeg; charset=binary", "LXh9thKMBRxL6dqVRpgyRxobvLO_vesN5a_hfzXt4H0", "Shaw - 2174 Hollins St.jpg", "48483" ] ]
+, [ 95, "B98651B4-86B6-4721-8E2C-9104A312947E", 95, 1333086484, "393202", 1333092117, "393202", "{\n}", "837 Washington Blvd.", "Tony, Shawn", "Shore, James, Access Art", "2004", [ "{\"address\":\"837 Washington Blvd.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21230\"}", "39.28291937086067", "-76.62996853477262", null, false ], [ "image/jpeg; charset=binary", "vIP_WRhLLi56lGxx4Hot2FYSFtn3jZSlQoyDAT-myVA", "Shore & James - 837 Washington Blvd.JPG", "1185536" ] ]
+, [ 115, "DCA4E122-DFB8-4804-ADC8-8FF7D311B667", 115, 1333086484, "393202", 1333092412, "393202", "{\n}", "Baltimore Farmer's Market - Holliday and Saratoga Streets", "Danamarie", "Hosler", "2006", [ "{\"address\":\"Baltimore Farmer's Market - Holliday and Saratoga Streets\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.297300000000064", "-76.60749999999996", null, false ], [ "image/jpeg; charset=binary", "7rX0rShaFVyFvB2gK0j8LNOAhEGZuvl8sKqw5rf734o", "d. hosler 2.JPG", "2403670" ] ]
+, [ 124, "D5E51EF0-F377-4258-ACDA-A71D4D0BD37D", 124, 1333086484, "393202", 1333092645, "393202", "{\n}", "610 S. Broadway", "Shawn", "James", "2006", [ "{\"address\":\"610 S. Broadway\",\"city\":\"\",\"state\":\"\",\"zip\":\"21231\"}", "39.28409748271906", "-76.59353699936565", null, false ], [ "image/jpeg; charset=binary", "LWAfI8VK_jnbba_8m0cLaNXljvzhe_5vOJQBU6SLwSk", "Shawn James Broadway Temporary front.jpg", "4137690" ] ]
+, [ 128, "BDF4ED8F-A520-44C7-ADEA-C9E46B066495", 128, 1333086484, "393202", 1333092835, "393202", "{\n}", "Baltimore Farmer's Market - Holliday and Saratoga Streets", "Alisha", "Marchewka", "2007", [ "{\"address\":\"Baltimore Farmer's Market - Holliday and Saratoga Streets\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.297300000000064", "-76.60749999999996", null, false ], [ "image/jpeg; charset=binary", "qmyA-op2ZlM46ce9vKeUeZZFmqZrnGDCtpp1pbbkvhw", "A. Marchewka Farmers Market.JPG", "455464" ] ]
+, [ 134, "C19FAA00-3315-455D-958C-61C81DC15C18", 134, 1333086484, "393202", 1333092957, "393202", "{\n}", "Baltimore Farmer's Market - Holliday and Saratoga Streets", "Jennifer", "Rattigan", "2007", [ "{\"address\":\"Baltimore Farmer's Market - Holliday and Saratoga Streets\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.297300000000064", "-76.60749999999996", null, false ], [ "image/jpeg; charset=binary", "6ZFYOy506R6Gd4MJZSebqe1a-_7L2NuvjUH-WMIOXjQ", "J. Rattigan FM 07.jpg", "2893830" ] ]
+, [ 145, "C111CBFC-9404-4121-A33B-87DF300EE0C6", 145, 1333086484, "393202", 1333093213, "393202", "{\n}", "Baltimore Farmer's Market - Holliday and Saratoga Streets", "Seth", "Goodman", "2008", [ "{\"address\":\"Baltimore Farmer's Market - Holliday and Saratoga Streets\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.297300000000064", "-76.60749999999996", null, false ], [ "image/jpeg; charset=binary", "MPRRZ9SyymW8l-SSoAe6I-us1RhOzxqbokDXeeYJilM", "Seth Goodman Farmers Market 08 alt view.jpg", "106171" ] ]
+, [ 149, "DD409DE4-49A2-4DAB-B466-2E5072575B90", 149, 1333086484, "393202", 1333093319, "393202", "{\n}", "Baltimore Farmer's Market - Holliday and Saratoga Streets", "Spoon ", "Popkin", "2008", [ "{\"address\":\"Baltimore Farmer's Market - Holliday and Saratoga Streets\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.297300000000064", "-76.60749999999996", null, false ], [ "image/jpeg; charset=binary", "72UfuwZEimX6i4MPWNhNz87M1sha_R62li7ZQNgOitk", "Spoon Popkin 2008 back view.JPG", "2386155" ] ]
+, [ 150, "D0B6675B-1C8D-443B-AF1D-CB22B43319EC", 150, 1333086484, "393202", 1333093557, "393202", "{\n}", "114 Hamburg Street", "Charles ", "Lawrence", "2008", [ "{\"address\":\"114 Hamburg Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21230\"}", "39.27833151021881", "-76.61192395611208", null, false ], [ "image/jpeg; charset=binary", "cU8z0aWtDyCpQBKlfoZMI0XjZuqcNNXAbMU5GhmX_PY", "114 Hamburg St FINAL.JPG", "955205" ] ]
+, [ 163, "D14CFDB3-6DBA-4C5F-970B-F37568080884", 163, 1333086484, "393202", 1333093669, "393202", "{\n}", "1400 North Avenue (Court Building parking lot)", "Spoon", "Popkin", "2008", [ "{\"address\":\"1400 North Avenue (Court Building parking lot)\",\"city\":\"\",\"state\":\"\",\"zip\":\"21213\"}", "39.316199999999924", "-76.57662999999991", null, false ], [ "image/jpeg; charset=binary", "-_58tYomIrTnpkvaNQiOZQfBkGWyUeQl5v9dthQ0X8M", "S. Popkin T. Miller Tribute Panel1.jpg", "116061" ] ]
+, [ 167, "DC0441A2-5101-4131-9470-F3C2803F4981", 167, 1333086484, "393202", 1333093753, "393202", "{\n}", "759 Washington Boulevard", "Augustina", "Droze", "2009", [ "{\"address\":\"759 Washington Boulevard\",\"city\":\"\",\"state\":\"\",\"zip\":\"21230\"}", "39.283072255605646", "-76.62769325003848", null, false ], [ "image/jpeg; charset=binary", "Kc4WTJhvNEBwk9WEMVpCN-ZaHL1HEjmocklWUGnpAas", "A. Droze 759 Washington Blvd.jpg", "304505" ] ]
+, [ 175, "CF81E4EA-6C8D-453E-852C-818BC40F205D", 175, 1333086484, "393202", 1333094003, "393202", "{\n}", "210 E. 22nd Street", "A", "Adams", "2010", [ "{\"address\":\"210 E. 22nd Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21218\"}", "39.31436866222526", "-76.61312423316377", null, false ], [ "image/jpeg; charset=binary", "E4bJtK-7zbaedOHHERHSO23iT3mUAO2H8BgF7TM-TLw", "210 E22nd A. Adams.JPG", "4199423" ] ]
+, [ 2, "DD29B283-4396-4114-916A-D3261E27387F", 2, 1333086484, "393202", 1333618517, "405090", "{\n}", "600 Cherry Hill Rd.", "Tom", "Miller", "1987", [ "{\"address\":\"600 Cherry Hill Rd.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21225\"}", "39.25000418458825", "-76.62289087040199", null, false ], [ "image/jpeg; charset=binary", "MwIj9A97qmNCx9RqWnvSsFVBQQvrE40IIbbqxZVsBeI", "Miller Mural.jpg", "2915711" ] ]
+, [ 3, "BB8ACDCD-036A-4C84-8479-CA38B313E78D", 3, 1333086484, "393202", 1333618901, "405090", "{\n}", "2222 Druid Park Dr.", "Camillia", "Blackwell", "1987", [ "{\"address\":\"2222 Druid Park Dr.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21217\"}", "39.30943185475045", "-76.63787156223106", null, false ], [ "image/jpeg; charset=binary", "LVMq7D3f_fFsE9sZDAwUfztwsYAQjtlWpdHhjgYcCdY", "Druid Hill Park Mural.jpg", "2090855" ] ]
+, [ 73, "CF02EB32-6075-41F1-B28E-F4D49F95F53E", 73, 1333086484, "393202", 1333622400, "405090", "{\n}", "106 S. Calverton St.", "Ernest", "Shaw", "2000", [ "{\"address\":\"106 S. Calverton St.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21223\"}", "39.28673917194104", "-76.65211940500427", null, false ], [ "image/jpeg; charset=binary", "8e_aG3p06UvFWPR1qGyhvuJjHOxcg3DX7GL6Im5j_Qs", "Shaw Mural.jpg", "2960277" ] ]
+, [ 74, "D5D87BB3-4087-4637-8D23-C3BFF68889AF", 74, 1333086484, "393202", 1334222476, "405090", "{\n}", "1207 E. North Ave.", "Ernest", "Shaw", "2000", [ "{\"address\":\"1207 E. North Ave.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.31180559444175", "-76.60210753830489", null, false ], [ "image/jpeg; charset=binary", "IMPRymS9E-0-emrAZIjPgydevU-e74rTQTaMkxR2ygM", "Shaw Mural 001.jpg", "3014229" ] ]
+, [ 78, "DC97BAF5-48D9-4C31-B7ED-0FFE8B56F9E0", 78, 1333086484, "393202", 1334223059, "405090", "{\n}", "Ashton and Smallwood Sts.", "Jay Wolf Schlossberg", "Cohen and Community Youth", "2000", [ "{\"address\":\"Ashton and Smallwood Sts.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21223\"}", "39.28365000000008", "-76.65196999999989", null, false ], [ "image/jpeg; charset=binary", "HYninQ0ZcqQ4Jk9NBCAryU5DG7juTbU7v_fpD09uS-A", "Cohen and community youth.jpg", "3016272" ] ]
+, [ 83, "CBD0B0D6-A0B9-422E-9AE3-1C554EB870A7", 83, 1333086484, "393202", 1334223636, "405090", "{\n}", "N. Duncan and McElderry Streets", null, "MICA and HEBCAC", "2002", [ "{\"address\":\"Parking lot of North East Market\",\"city\":\"\",\"state\":\"\",\"zip\":\"21205\"}", "39.302410000000066", "-76.56324999999987", null, false ], [ "image/jpeg; charset=binary", "O1ee41zt_NS6493o-6EfijCN4yZh5HwjgnfK07QcUpM", "MICA Mural.jpg", "2105413" ] ]
+, [ 76, "FB0BF7AA-DE0A-47BF-B357-49FF7797FDF4", 76, 1333086484, "393202", 1333086502, "393202", "{\n}", "900 Ostend St.", "Tony", "Shore", "2000", [ "{\"address\":\"900 Ostend St.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21223\"}", "39.28365000000008", "-76.65196999999989", null, false ], [ null, null, null, null ] ]
+, [ 4, "481F0EE6-E2F6-49B9-8F71-AF5792C14933", 4, 1333086484, "393202", 1333086870, "393202", "{\n}", "600 W. 28th St.", "John", "Ellsberry", "1987", [ "{\"address\":\"600 W. 28th St.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21211\"}", "39.33100999999999", "-76.63518999999991", null, false ], [ "image/jpeg; charset=binary", "LuEGShNeq7xyVUmWHZsibq13bKVdCWCNxZ6WKCb9MpA", "ellsberry - 600 w 28 st 3.JPG", "145338" ] ]
+, [ 7, "A7A0D529-EB3B-4F8D-B47B-3F102A115EA0", 7, 1333086484, "393202", 1333086974, "393202", "{\n}", "Ashland Ave. and N. Washington St.", "Stephanie", "Garmey", "1988", [ "{\"address\":\"Ashland Ave. and N. Washington St.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21205\"}", "39.300671987719056", "-76.58972387396142", null, false ], [ "image/jpeg; charset=binary", "IvH7thzwP3YONbeliaLdBtVZc0tujXR6j-xm2xeLGdo", "garney - ashland & washington sts.JPG", "186712" ] ]
+, [ 12, "6D0C8814-14D1-4551-B52D-4081320123D9", 12, 1333086484, "393202", 1333087120, "393202", "{\n}", "2310 Harford Rd.", "George", "Ferrandi", "1990", [ "{\"address\":\"2310 Harford Rd.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21218\"}", "39.31602341475917", "-76.59610006714917", null, false ], [ "image/jpeg; charset=binary", "yLlcwwxcYKAPEKj_SiXiLHX9tXFOKbGN-V6FVKa3R5E", "ferrandi-2310 harford rd.JPG", "150376" ] ]
+, [ 14, "547093AE-F671-4878-821F-6C367EAF5BCD", 14, 1333086484, "393202", 1333089060, "393202", "{\n}", "4000 Reistertown Rd.", "Quentin", "Mosley", "1990", [ "{\"address\":\"4000 Reistertown Rd.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21215\"}", "39.33384558374571", "-76.6641132885438", null, false ], [ "image/jpeg; charset=binary", "chbdfyMPVnLgef8Kx7H1x63Aua9FY3vNm6bXCHqoAPc", "moseley-4000 reisterstown rd.jpg", "124474" ] ]
+, [ 19, "E3164DFD-1C79-419F-89EC-24B1C2566683", 19, 1333086484, "393202", 1333089200, "393202", "{\n}", "North and Park Aves.", "Bonnie", "Bonnell", "1992", [ "{\"address\":\"North and Park Aves.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21217\"}", "39.31194000000011", "-76.64039000000002", null, false ], [ "image/jpeg; charset=binary", "YYulneSSWbQxRJ4lxQTPWMTJPO7aR7AXjpEYpG7NTQc", "bonnell-north & park aves.JPG", "139665" ] ]
+, [ 20, "DB5D98F6-719E-481D-B455-D7402554D5D5", 20, 1333086484, "393202", 1333089221, "393202", "{\n}", "500 N. Howard St.", "John", "Ellsberry", "1992", [ "{\"address\":\"500 N. Howard St.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21201\"}", "39.294996911178586", "-76.61987063772014", null, false ], [ "image/jpeg; charset=binary", "ZQlOUb4K16HkMLTrq79FQ_3-jESMc5rP8t5EKRAULp4", "ellsberry - 500 N Howard St.JPG", "193456" ] ]
+, [ 23, "96222C07-F164-4B5C-9741-12E700BF085B", 23, 1333086484, "393202", 1333089276, "393202", "{\n}", "115 S. Carey St.", "Jenny", "Merker", "1993", [ "{\"address\":\"115 S. Carey St.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21223\"}", "39.28604901152261", "-76.63799948049422", null, false ], [ "image/jpeg; charset=binary", "wJbOsPQwyEaChjtXyk43rk8OU5YYeq3cKfd-bqSXf1Y", "merker-115 s carey st.JPG", "195232" ] ]
+, [ 123, "F7470562-00B4-4B39-820B-BD7ABDBFC5C2", 123, 1333086484, "393202", 1333092603, "393202", "{\n}", "1425 Mulberry Street", "Aleks", "Martray", "2006", [ "{\"address\":\"1425 Mulberry Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21223\"}", "39.29310232572219", "-76.64015259533683", null, false ], [ "image/jpeg; charset=binary", "o2KmVfeYHbdByDOozML-eIbwcDdUNlZidsf9bdYm9oM", "Aleks Martray 1425 Mulberry St..jpg", "3991260" ] ]
+, [ 138, "EBF9CB6C-828F-47F4-B4A5-96F9A2025488", 138, 1333086484, "393202", 1333093053, "393202", "{\n}", "Baltimore Farmer's Market - Holliday and Saratoga Streets", "Pontella ", "Mason", "2007", [ "{\"address\":\"Baltimore Farmer's Market - Holliday and Saratoga Streets\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.297300000000064", "-76.60749999999996", null, false ], [ "image/jpeg; charset=binary", "7rT6d_eBXnc70gHmGL-6ap_q5H01tnloYkkyhwryuSM", "P. Mason Farmers Market.jpg", "634177" ] ]
+, [ 142, "EA436925-11F1-44A3-8022-857E5B06414D", 142, 1333086484, "393202", 1333093137, "393202", "{\n}", "3301 Belair Road", "Charles", "Lawrence", "2007", [ "{\"address\":\"3301 Belair Road\",\"city\":\"\",\"state\":\"\",\"zip\":\"21213\"}", "39.321752096085845", "-76.57347312489196", null, false ], [ "image/jpeg; charset=binary", "5d_KvAT0nBs1SegqTaV3q6ThDGEx-U4x_HYlJP7gDYs", "C. Lawrance Bel Air Edison 001.jpg", "381197" ] ]
+, [ 155, "EF80E588-E577-43FA-BF7E-2FF22E74A3A4", 155, 1333086484, "393202", 1333093462, "393202", "{\n}", "3900 Bel Air Road, Movie Shed", "Emily", "CD", "2008", [ "{\"address\":\"3900 Bel Air Road, Movie Shed\",\"city\":\"\",\"state\":\"\",\"zip\":\"21213\"}", "39.316199999999924", "-76.57662999999991", null, false ], [ "image/jpeg; charset=binary", "Ao8I2ERRP2Snv7FsvLvx4AMP7NDmPxGXOM70Jt30gC8", "E. C-D 3900 Bel Air Movie Shed.jpg", "101565" ] ]
+, [ 158, "EC035392-1CBB-4A9D-AD08-54FE685A113A", 158, 1333086484, "393202", 1333093524, "393202", "{\n}", "540 Lakewood Street", "Gary ", "Mullen", "2008", [ "{\"address\":\"540 Lakewood Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21205\"}", "39.302410000000066", "-76.56324999999987", null, false ], [ "image/jpeg; charset=binary", "KH6I8XwKj08sSifktZ0X5oLfjmWJTOcqmuLqoEzeLc0", "540 Lakewood 001.jpg", "112071" ] ]
+, [ 162, "F6372ED2-15E4-42C3-A543-BC9A90327812", 162, 1333086484, "393202", 1333093641, "393202", "{\n}", "529 S. Broadway", "Nelson", "Rivas", "2008", [ "{\"address\":\"529 S. Broadway\",\"city\":\"\",\"state\":\"\",\"zip\":\"21231\"}", "39.284816940342466", "-76.59330317563803", null, false ], [ "image/jpeg; charset=binary", "G5RSGd_GiiRaXEErbrb5VYslBwP2lcnnIpLGXsft5YQ", "N. Rivas 529 S. Broadway.jpg", "65675" ] ]
+, [ 168, "E02DB107-A24D-49C9-B81C-10920C607950", 168, 1333086484, "393202", 1333093764, "393202", "{\n}", "1400 Greenmount Avenue", "Archie", "Veale", "2009", [ "{\"address\":\"1400 Greenmount Avenue\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.306175838538365", "-76.60852869759407", null, false ], [ "image/jpeg; charset=binary", "zvDCRvnCZ9vUeR17cKb8KxWPZUnUm_n5MRz8LYSk9Jk", "A. Veale 1400 Greenmount.jpg", "215254" ] ]
+, [ 169, "F919CF71-D09D-498D-965C-677C08C36AD2", 169, 1333086484, "393202", 1333093781, "393202", "{\n}", "4337 Park Heights", "Danamarie", "Hosler", "2009", [ "{\"address\":\"4337 Park Heights\",\"city\":\"\",\"state\":\"\",\"zip\":\"21215\"}", "39.34556999999995", "-76.68362000000002", null, false ], [ "image/jpeg; charset=binary", "uQIZ8VHlRLUzRmWsjEi7CepkpUJ226ZdmuLHHVvO-Nw", "Danamarie Hosler - 4337 Park Heights.JPG", "655187" ] ]
+, [ 170, "E8F21E6F-D568-4B82-ADF4-0164A08F9B98", 170, 1333086484, "393202", 1333093807, "393202", "{\n}", "528 Benninghaus Street", "Lyle", "Kissack", "2009", [ "{\"address\":\"528 Benninghaus Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21212\"}", "39.35902873204613", "-76.6091207497683", null, false ], [ "image/jpeg; charset=binary", "hFTtkrztdjiQFp1TCOhtxrs2D8xahzDn_6MihoMOsos", "Lyle Kissack 528 Benninghaus Rd..jpg", "150473" ] ]
+, [ 173, "E0B82474-4466-4061-A343-0D9CD04FE9A7", 173, 1333086484, "393202", 1333093923, "393202", "{\n}", "2798 The Alemeda", "Lyle and Brian", "Kissack and Probst", "2009", [ "{\"address\":\"2798 The Alemeda\",\"city\":\"\",\"state\":\"\",\"zip\":\"21218\"}", "39.32312094688387", "-76.59306895234195", null, false ], [ "image/jpeg; charset=binary", "opB1urZVN1EOz2C8MFPU9JQee6Lr1P5RbP-_jhg72Do", "Probst-Kissack MACA.jpg", "64313" ] ]
+, [ 187, "E94E090B-6A46-48D5-A4AC-9B61F4F6C5D9", 187, 1333086484, "393202", 1333094263, "393202", "{\n}", "416 Monroe Street", "Sunny ", "Miller", "2011", [ "{\"address\":\"416 Monroe Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21223\"}", "39.282715815213734", "-76.6467109421284", null, false ], [ "image/jpeg; charset=binary", "TN4VcWX9sMrYQH2pgbF_2SvC1_8RH5ygkrwgXzi33EQ", "416 s. monroe s. miller light.JPG", "5036786" ] ]
+, [ 151, "F2F89358-1DCB-479D-8DBA-7A33D8DEA9F7", 151, 1333086484, "393202", 1333110829, "405090", "{\n}", "601 E. 33rd Street", "Nelson", "Rivas", "2008", [ "{\"address\":\"601 E. 33rd Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21218\"}", "39.328317146899735", "-76.6077462874286", null, false ], [ "image/jpeg; charset=binary", "FPww0r9CqRM80oXBTdN5vdm6hSQWQTiGm4oIyDVALb8", "Waverly Giant Foods - Nelson Rivas.jpg", "2035501" ] ]
+, [ 5, "F157EF77-9D79-4D19-85FB-9DC66CD00CAC", 5, 1333086484, "393202", 1333619316, "405090", "{\n}", "3500 Hillen Rd.", "John", "Ford", "1987", [ "{\"address\":\"3500 Hillen Rd.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21218\"}", "39.33167161806898", "-76.58903139599886", null, false ], [ "image/jpeg; charset=binary", "QV36z21t7zun27dJvizJDwAnZB4TWLB_LOsnJrNGDwc", "Morgenthaler.jpg", "2431038" ] ]
+, [ 66, "DF46E56E-98DC-45DF-9C08-BCB0CBD6555E", 66, 1333086484, "393202", 1333621512, "405090", "{\n}", "38 E. Cross St.", "Ray", "Ridenour", "1999", [ "{\"address\":\"38 E. Cross St.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21230\"}", "39.27695686580637", "-76.61306128062176", null, false ], [ "image/jpeg; charset=binary", "ieu6gHPZovQ8gAzlUo0_xKFxHIGu-ddaRGCOuEqrC1Q", "Cross Street Mural.jpg", "2867464" ] ]
+, [ 22, "DF85C60A-FDE0-407D-A767-98467BF85D96", 22, 1333086484, "393202", 1333089268, "393202", "{\n}", "1224 W. Lombard St.", "Helen", "Glazer", "1993", [ "{\"address\":\"1224 W. Lombard St.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21223\"}", "39.286570618299606", "-76.63743290761579", null, false ], [ "image/jpeg; charset=binary", "7J8wEOHVNgek_Q51z6lKr6owLsaV3UUCY03H0RFMnYA", "glazer-1224 w lombard.JPG", "203345" ] ]
+, [ 26, "6C6B889A-8994-4320-ABA8-9BC22B41A328", 26, 1333086484, "393202", 1333089407, "393202", "{\n}", "910 W. Pratt St.", "John", "Ellsberry", "1994", [ "{\"address\":\"910 W. Pratt St.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21223\"}", "39.28583317423556", "-76.63264851441988", null, false ], [ "image/jpeg; charset=binary", "GO4KXoRkqK92uhHKLpAVA3PvFjwf_DXfWVjirugLkdY", "ellberry-910 w pratt st.JPG", "190135" ] ]
+, [ 68, "3A695CC6-B26F-4432-A795-2EDB1CA3F659", 68, 1333086484, "393202", 1333091445, "393202", "{\n}", "1644 E. Pratt St.", "Mary", "Carfagno Ferguson", "2000", [ "{\"address\":\"1644 E. Pratt St.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21231\"}", "39.28920563184545", "-76.59420249766731", null, false ], [ "image/jpeg; charset=binary", "DIvzuYr5KsiymjRPSAuX0BF-zk8fIVYy71Q6OOZWMAA", "ferguson - 1644 E Pratt St.jpg", "36350" ] ]
+, [ 129, "75F06730-3066-4CCE-A268-0EF9FDDA7561", 129, 1333086484, "393202", 1333092853, "393202", "{\n}", "Baltimore Farmer's Market - Holliday and Saratoga Streets", "Bill", "Remington", "2007", [ "{\"address\":\"Baltimore Farmer's Market - Holliday and Saratoga Streets\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.297300000000064", "-76.60749999999996", null, false ], [ "image/jpeg; charset=binary", "zemVtZelY0si1VMNlQ9H31rJzeFYGPhWFPLOSF8P6pk", "B. Remington Farmers' Market.jpg", "2577601" ] ]
+, [ 166, "C194097E-7A05-469B-BD48-F9687F9EC394", 166, 1333086484, "393202", 1333093737, "393202", "{\n}", "Baltimore Farmer's Market - Holliday and Saratoga Streets", "John", "Marra", "2009", [ "{\"address\":\"Baltimore Farmer's Market - Holliday and Saratoga Streets\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.297300000000064", "-76.60749999999996", null, false ], [ "image/jpeg; charset=binary", "TVW5F_IYcneLIMXT8z-vh9L1OXLxWEHGVMBab5CTMkw", "John  Marra Farmers' Market.jpg", "64474" ] ]
+, [ 28, "3A03AA00-6D3A-4528-94A3-AB5C00FE92F5", 28, 1333086484, "393202", 1333089422, "393202", "{\n}", "1617 N. Calvert St.", "Charles", "Lawrance", "1994", [ "{\"address\":\"1617 N. Calvert St.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.308172333443395", "-76.61359188061903", null, false ], [ "image/jpeg; charset=binary", "Fm3E3xKr91AmDnXyWUox4aZoTJng2EbMn3quWLLCZy0", "lawrance-1617 n calvert st.JPG", "190136" ] ]
+, [ 34, "0ECC10EB-113C-4D42-832F-9E98E1AB27EF", 34, 1333086484, "393202", 1333089513, "393202", "{\n}", "4000 Park Heights Ave.", "Lyle and Gerald", "Kissack and Ross", "1995", [ "{\"address\":\"4000 Park Heights Ave.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21215\"}", "39.33472931296865", "-76.66280278206233", null, false ], [ "image/jpeg; charset=binary", "PvgjL4HXDsSsWPnYZKcevR5BgBScUI_j6176UvuZyBc", "kissack & ross-2626 Shirley Ave.JPG", "181387" ] ]
+, [ 48, "DF1CB894-7C0B-4B30-88B0-737DE79883E3", 48, 1333086484, "393202", 1333090025, "393202", "{\n}", "Cathedral and Centre Sts.", "Mary Carfagno", "Ferguson and women of My Sister's Place", "1997", [ "{\"address\":\"Cathedral and Centre Sts.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21201\"}", "39.294880000000035", "-76.62253999999996", null, false ], [ "image/jpeg; charset=binary", "hZ2eTFej2qAyku9Ku3ggA7DLv8lV_Vp6p-Mt6qmAxpM", "ferguson, pugh, my sister's place-cathedral & centre sts - ncf 2.JPG", "1309519" ] ]
+, [ 49, "8D8846D2-9681-4FA8-B7A9-5E1E855691A8", 49, 1333086484, "393202", 1333090890, "393202", "{\n}", "1301 Woodbourne Ave.", "Jeffrey", "Cook", "1998", [ "{\"address\":\"1301 Woodbourne Ave.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21239\"}", "39.35407372981888", "-76.59492195529077", null, false ], [ "image/jpeg; charset=binary", "DN0tZkK5GoQWLbQtYOJUoaXYlgzANxEl3DDb9VpSDRw", "cook & woodburne ctr students-1301 woodbourne ave - Great expectations.JPG", "172909" ] ]
+, [ 64, "B451BC7A-A7E1-4A65-8CF4-69D3766801F0", 64, 1333086484, "393202", 1333091266, "393202", "{\n}", "801 McCulloh St.", "Kylis", "Winborne", "1999", [ "{\"address\":\"801 McCulloh St.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21201\"}", "39.29868448603429", "-76.62299878904554", null, false ], [ "image/jpeg; charset=binary", "Tc3A_S6YIpyohPo9-Nbtz4GHeo6v0-mXcZKR-AkSK1Y", "winborne - 801 mccullough 2.4.04 2.jpg", "346503" ] ]
+, [ 72, "A950C50D-60F1-4389-A2D6-9528668642C4", 72, 1333086484, "393202", 1333091511, "393202", "{\n}", "412 S. Broadway", "Eric", "Monastario", "2000", [ "{\"address\":\"412 S. Broadway\",\"city\":\"\",\"state\":\"\",\"zip\":\"21231\"}", "39.286183909827", "-76.5936179383483", null, false ], [ "image/jpeg; charset=binary", "1ZE1vv25BnlZVa6iJWP_5ldC7f7x2w8YJHUDpFDtx2s", "monastario - 412 S Broadway.jpg", "39326" ] ]
+, [ 80, "1A2BBE71-FDD9-43FD-9091-4698FA24C2C6", 80, 1333086484, "393202", 1333091617, "393202", "{\n}", "1904 McCulloh St.", "Lyle", "Kissack", "2001", [ "{\"address\":\"1904 McCulloh St.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21217\"}", "39.30744388259967", "-76.63382662627828", null, false ], [ "image/jpeg; charset=binary", "6n7xLo1noJjbxZySh2JN28JIe_xkn7W7MlV5TSf1qq4", "kissack - 1904 McCulloh St 2.JPG", "1541643" ] ]
+, [ 93, "6EDE98E7-690F-4B87-8306-7C99A3318F86", 93, 1333086484, "393202", 1333092076, "393202", "{\n}", "325 N. Fulton Ave.", "Lyle", "Kissack and MICA Community Arts Partnerships", "2004", [ "{\"address\":\"325 N. Fulton Ave.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21223\"}", "39.292289762845", "-76.64532280291871", null, false ], [ "image/jpeg; charset=binary", "gXqX3dhUd-S2w_wIwaARsQi5ggD96FEjFcn8RzuumjM", "CAP - 325 Fulton.JPG", "1237348" ] ]
+, [ 99, "D86C0906-DB40-423E-8B23-D49921DCDDFF", 99, 1333086484, "393202", 1333092196, "393202", "{\n}", "200 N. Bentalou St.", "Benari", "Stewart and Urban Experience", "2004", [ "{\"address\":\"200 N. Bentalou St.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21223\"}", "39.29096830302291", "-76.65301815838353", null, false ], [ "image/jpeg; charset=binary", "AV_dPLBJiRfHQMQVUntZx7z-IHiMxbMA6MJw_DhvbsU", "Stewart - 200 North Bentalou lores.JPG", "7248" ] ]
+, [ 118, "135B83E6-C73D-412A-A35B-522DDDE64E93", 118, 1333086484, "393202", 1333092460, "393202", "{\n}", "Baltimore Farmer's Market - Holliday and Saratoga Streets", "Kien", "Nyugen", "2006", [ "{\"address\":\"Baltimore Farmer's Market - Holliday and Saratoga Streets\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.297300000000064", "-76.60749999999996", null, false ], [ "image/jpeg; charset=binary", "jXi1xEAt1uunjfsrE5yoVZANMMMrgcsp3eZeAEJAGTg", "k. nyugen 2.JPG", "2219288" ] ]
+, [ 120, "417DCFD6-8915-4BB4-84E9-5E8F4BF458B2", 120, 1333086484, "393202", 1333092520, "393202", "{\n}", "Baltimore Farmer's Market - Holliday and Saratoga Streets", "Michael", "Owens", "2006", [ "{\"address\":\"Baltimore Farmer's Market - Holliday and Saratoga Streets\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.297300000000064", "-76.60749999999996", null, false ], [ "image/jpeg; charset=binary", "EmBPm3mescZCG0aju0rMg3RogllA5Lzbyt-pfvLDIss", "m. owens 2.JPG", "1563551" ] ]
+, [ 127, "AE438D8C-65FF-4ECC-B2CB-A6C536EB2E14", 127, 1333086484, "393202", 1333092790, "393202", "{\n}", "929 W. 36th Street", "Jennifer", "Ratigan", "2006", [ "{\"address\":\"929 W. 36th Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21211\"}", "39.33107648239006", "-76.6316567745677", null, false ], [ "image/jpeg; charset=binary", "AN8lO3L8cNyMxDn92C2mIsBX6pbxu1MQ1UPK72sJDvo", "Rattigan, 36th Hamden.jpg", "274120" ] ]
+, [ 130, "D9CC3F69-B9FE-4C19-B102-4B1E3429090E", 130, 1333086484, "393202", 1333092873, "393202", "{\n}", "Baltimore Farmer's Market - Holliday and Saratoga Streets", "Chris", "Gregorek", "2007", [ "{\"address\":\"Baltimore Farmer's Market - Holliday and Saratoga Streets\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.297300000000064", "-76.60749999999996", null, false ], [ "image/jpeg; charset=binary", "x5gM_y09hvHIYV1b0pa7SW2ine16DuzIDYbyLnG4qG8", "Chris Gregorek FM07 alt 1.JPG", "2195187" ] ]
+, [ 135, "E03DBA12-D1C6-4B87-A433-10369107F46D", 135, 1333086484, "393202", 1333092978, "393202", "{\n}", "Baltimore Farmer's Market - Holliday and Saratoga Streets", "Michael", "Kirby", "2007", [ "{\"address\":\"Baltimore Farmer's Market - Holliday and Saratoga Streets\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.297300000000064", "-76.60749999999996", null, false ], [ "image/jpeg; charset=binary", "AXtWVtT04DKez4Mbk9ddFgAky2XyAAaQrR0E72xQF3s", "M. Kirby FM07.JPG", "2489168" ] ]
+, [ 137, "5946AA99-0536-479F-AEFB-F4F992EE46A5", 137, 1333086484, "393202", 1333093022, "393202", "{\n}", "Baltimore Farmer's Market - Holliday and Saratoga Streets", "Stephanie", "Leung", "2007", [ "{\"address\":\"Baltimore Farmer's Market - Holliday and Saratoga Streets\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.297300000000064", "-76.60749999999996", null, false ], [ "image/jpeg; charset=binary", "yu-svQPxsFzHCRgfulfwLaL7KzXjEHzczpAvu-jCMuU", "S. Leung FM Detail.jpg", "602574" ] ]
+, [ 157, "3609A27A-C85C-4FA4-A155-E6F72D2B107A", 157, 1333086484, "393202", 1333093496, "393202", "{\n}", "2043 Pennsylvania Avenue", "Donald ", "Tyson", "2008", [ "{\"address\":\"2043 Pennsylvania Avenue\",\"city\":\"\",\"state\":\"\",\"zip\":\"21217\"}", "39.30646362158774", "-76.6381793449001", null, false ], [ "image/jpeg; charset=binary", "hAwmdeS_W5P6tCH5C2SsVnz_EMREq4gMZA1ow8-dCL0", "D. Tyson 2043 Penn Ave..jpg", "135314" ] ]
+, [ 160, "EF42FF9D-EC95-4099-A511-D76F57842376", 160, 1333086484, "393202", 1333093599, "393202", "{\n}", "1530 N. Bentalou Street, Easterwood Recreation Center", "Michelle", "Santos", "2008", [ "{\"address\":\"1530 N. Bentalou Street, Easterwood Recreation Center\",\"city\":\"\",\"state\":\"\",\"zip\":\"21216\"}", "39.310280000000034", "-76.67214999999999", null, false ], [ "image/jpeg; charset=binary", "yVnmL7Vfsrin5OghoDYzlxApKS1EN4-8vZiUOuRdJi8", "M Santos Easterwood Rec Nov 08.JPG", "1476344" ] ]
+, [ 172, "E8A544C8-3379-489A-9EFB-0BC43A51F6AC", 172, 1333086484, "393202", 1333093899, "393202", "{\n}", "4100 Eastern Avenue", "Michael", "Owens", "2009", [ "{\"address\":\"4100 Eastern Avenue\",\"city\":\"\",\"state\":\"\",\"zip\":\"21224\"}", "39.28690039548041", "-76.56239411878697", null, false ], [ "image/jpeg; charset=binary", "8GkVCDY7aPCBfEjQOp-O0CKtqdhk6zqIPFC3pcfeu1Q", "Michael Owen 4100 Eastern Ave (17).jpg", "360147" ] ]
+, [ 182, "8705D8C6-FFAF-4302-A979-808043802828", 182, 1333086484, "393202", 1333094156, "393202", "{\n}", "2410 Tolley Street, Morrell Park", "Chris", "Peters and Access Art", "2010", [ "{\"address\":\"2410 Tolley Street, Morrell Park\",\"city\":\"\",\"state\":\"\",\"zip\":\"21223\"}", "39.28365000000008", "-76.65196999999989", null, false ], [ "image/jpeg; charset=binary", "RLXPN_F7pb0SaonkUD_ZF-jwRS5EWMUDS3d_-cg1D-I", "Morrell Park side.jpg", "853067" ] ]
+, [ 185, "62DA0585-3228-43BB-951E-AD79844F4AE5", 185, 1333086484, "393202", 1333094230, "393202", "{\n}", "1503 Durham Street", "Donald ", "Tyson", "2011", [ "{\"address\":\"1503 Durham Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21213\"}", "39.30763277107453", "-76.59203847368704", null, false ], [ "image/jpeg; charset=binary", "jiyno09GTeV6S9udryuTohL-lQTLBbHutQvFeFP-Jmo", "1503 Durham D. Tyson.JPG", "4463156" ] ]
+, [ 165, "9EB7E76C-2A0C-47BC-A896-FE245B60695A", 165, 1333086484, "393202", 1333110317, "405090", "{\n}", "Baltimore Farmer's Market - Holliday and Saratoga Streets", "Nelson", "Rivas", "2009", [ "{\"address\":\"Baltimore Farmer's Market - Holliday and Saratoga Streets\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.297300000000064", "-76.60749999999996", null, false ], [ "image/jpeg; charset=binary", "aW3uwxCYaLcs4xAoP67snQ_uWjjNJRqxnWi3sN-mAMw", "Farmers Market - Nelson Rivas side 1.JPG", "644467" ] ]
+, [ 191, "ED108647-7EFB-4C3F-99B3-5614DB6C0A1A", 191, 1333086484, "393202", 1333111691, "405090", "{\n}", "2900 Barclay Street (Mosaic)", "Tamara and Natalie", "Payne and Kossack", "2011", [ "{\"address\":\"2900 Barclay Street (Mosaic)\",\"city\":\"\",\"state\":\"\",\"zip\":\"21218\"}", "39.32380255031262", "-76.61110975181816", null, false ], [ "image/jpeg; charset=binary", "73tQ6qiXxYCJivvKsnE993uZLrt40pc8t0GWOgvYFok", "IMG_0119[1]", "2189281" ] ]
+, [ 32, "8A829AD4-4974-471D-9A81-AF14524E5B8B", 32, 1333086484, "393202", 1333619774, "405090", "{\n}", "Howard and Franklin Sts.", "Derek, Archie, Nichole…", "Arnold, Veale, Gray, Mason, Waters-Eller", "1995", [ "{\"address\":\"Howard and Franklin Sts.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21201\"}", "39.294880000000035", "-76.62253999999996", null, false ], [ "image/jpeg; charset=binary", "wF151w0008zhIUCS7UfVegHi03T0BqxnLFqRWiYwEC8", "Howard & Franklin.jpg", "2937495" ] ]
+, [ 56, "A45FB8DD-CD0E-4BF5-AEAE-46921BB62B5D", 56, 1333086484, "393202", 1333620652, "405090", "{\n}", "1139 N. Gilmore St.", "Charles", "Lawrence", "1998", [ "{\"address\":\"1139 N. Gilmore St.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21217\"}", "39.3015526379558", "-76.6430238325883", null, false ], [ "image/jpeg; charset=binary", "xrEIL8JRr4kHnZ4XptowsZ8Pp7JQ5rJaSNdUndH_mNM", "Gilmor Street.jpg", "2106532" ] ]
+, [ 96, "7F35B9C1-B080-4661-BFA1-5FDA1D24C786", 96, 1333086484, "393202", 1334318215, "405090", "{\n}", "W. Hamburg and Bayard Sts.", "Shawn", "James and Mural Masters", "2004", [ "{\"address\":\"W. Hamburg and Bayard Sts.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21230\"}", "39.266940000000034", "-76.62630000000001", null, false ], [ "image/jpeg; charset=binary", "ZXthXCpQ5N__zbbQTYcMuOoZs8sm9Oz82x7v_WB55As", "James Mural - Biking.jpg", "2467094" ] ]
+, [ 105, "04B20070-3295-4083-BA7F-D8793EEB6492", 105, 1333086484, "393202", 1334320126, "405090", "{\n}", "Liberty and Clay Sts.", "Shawn", "James and Access Art Inc.", "2004", [ "{\"address\":\"Liberty and Clay Sts.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.297300000000064", "-76.60749999999996", null, false ], [ "image/jpeg; charset=binary", "2lTfEswG-31PAh52vw2ajKaefrvbT1x6IIZJTWd_AYc", "Believe Mural.jpg", "2691480" ] ]
+, [ 110, "E2449B63-4AFC-4650-882B-CB6673665FF9", 110, 1333086484, "393202", 1334320410, "405090", "{\n}", "1317 W. Baltimore St.", "Lyle", "Kissack and MICA CAP Program", "2005", [ "{\"address\":\"1317 W. Baltimore St.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21223\"}", "39.28846556635039", "-76.63889382547316", null, false ], [ "image/jpeg; charset=binary", "L0uZV4kJCIDNOV3i91VtkqnCqy8ISJstZlXJWRw9LbI", "SoWeBo Mural.jpg", "2200695" ] ]
+, [ 42, "6BAC07B3-0F19-4A98-A95F-83D7551FE917", 42, 1333086484, "393202", 1334321095, "405090", "{\n}", "115 W. Mulberry Street", "Mary Carfagno", "Women's Mural Project and Ferguson", "1996", [ "{\"address\":\"115 W. Mulberry St.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21201\"}", "39.294880000000035", "-76.62253999999996", null, false ], [ "image/jpeg; charset=binary", "WFKhNRwSiXrpK4c3jSrbn8nGNu5pTf2cTT6zhUQxyaM", "Ferguson Mural.jpg", "2847495" ] ]
+ ]
+}
