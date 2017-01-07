@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js">
+    </script>
+</head>
+
+<body>
+
+    <a onclick=""> hi </a>
+
+    <div ng-app="application" ng-controller="controller"
+         ng-init="init();"> <!-- begintag: AngularJS application -->
+
+        Limit: <input type="text" ng-model="limit">     <br/>
+        Offset: <input type="text" ng-model="offset">   <br/>
+        <button ng-click="getData()"> Display </button> <br/>
+
+        Limit / Offset: {{limit + "/" + offset}}        <br/>
+
+        <table>
+            <th>
+                <td> artistfirstname    </td>
+                <td> artistlastname     </td>
+                <td> year               </td>
+                <td> location           </td>
+                <td> location1          </td>
+                <td> image              </td>
+            </th>
+            <tr ng-repeat="x in data">
+                <td>                           </td>
+                <td> {{ x.artistfirstname   }} </td>
+                <td> {{ x.artistlastname    }} </td>
+                <td> {{ x.year              }} </td>
+                <td> {{ x.location1         }} </td>
+                <td> {{ x.location1         }} </td>
+                <td> {{ x.image             }} </td>
+            </tr>
+        </table>
+
+        <br/>
+        {{data}}
+
+    </div> <!-- endtag: AngularJS application -->
+
+    <script>
+        angular.module('application', [])
+        .controller('controller',
+        function($scope, $http) {
+
+            $scope.init = function() {
+                $scope.limit = 10;
+                $scope.offset = 0;
+                $scope.data= null;
+            }
+
+            $scope.getData = function() {
+                // get API endpoint data in JSON format via http with params:
+                //   limit: number of items to show AND
+                //   offset: starting point at which to display items
+                $http.get(
+                    "https://data.baltimorecity.gov/resource/x3eq-9sua.json" +
+                    "?$limit="  + $scope.limit +
+                    "&$offset=" + $scope.offset)
+                .then(function(response) {
+                    $scope.data = response.data;
+                });
+
+                console.log("scope.data" + $scope.data);
+                var i = 0;
+                for (x in $scope.data) {
+                    console.log(i);
+                    console.log(x.constructor.name);
+                    console.log(x.name);
+                    console.log("~~~");
+
+                    i++;
+                }
+            }
+
+        });
+    </script>
+
+</body>
+<!--
+href="https://data.cityofchicago.org/resource/alternative-fuel-locations.json?$limit=100&$offset=100"
+-->
+<!--
+ng-repeat="row in dataRecords">
+            {{ row.street_address + ', ' + row.station_phone }}
+            hi
+-->
+
+</html>
