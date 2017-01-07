@@ -4,6 +4,9 @@
 
 <head>
 
+    <!-- CSS includes -->
+    <link rel="stylesheet" href="style.css">
+
     <!-- JS library includes -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
     <script type="text/javascript" src="manage_data.js"></script>
@@ -12,66 +15,74 @@
 
 </head>
 
-<body>
+<body class="body-style">
+<table><tr> <td> Welcome! </td> <td> This is a webpage </td> </tr>
+<tr>
+    <td> Here I am
+    </td>
 
-    <div ng-app="application" ng-controller="controller"
-         ng-init="init();"> <!-- begintag: AngularJS application -->
-        
-        <div fusioncharts width="600" height="400" type="column2d" dataSource="{{myDataSource}}" >
-        </div>
+    <td>
+        <div ng-app="application" ng-controller="controller"
+             ng-init="init();"> <!-- begintag: AngularJS application -->
+            
+            <div fusioncharts width="600" height="400" type="column2d" dataSource="{{myDataSource}}" >
+            </div>
 
-        Limit: <input type="text" ng-model="limit">     <br/>
-        Offset: <input type="text" ng-model="offset">   <br/>
-        <button ng-click="getData()"> Display </button> <br/>
+            <div class="user-input" >
+                Limit: <input type="text" ng-model="limit">     <br/>
+                Offset: <input type="text" ng-model="offset">   <br/>
+                <button ng-click="getData()"> Display </button> <br/>
+            </div>
 
-        Limit / Offset: {{limit + "/" + offset}}        <br/>
+            Limit / Offset: {{limit + "/" + offset}}        <br/>
 
-        <table>
-            <th>
-                <td> propertyid         </td>
-                <td> block              </td>
-                <td> lot                </td>
-                <td> ward               </td>
-                <td> sect               </td>
-                <td> propertyaddress    </td>
-                <td> lotsize            </td>
-                <td> citytax            </td>
-                <td> statetax           </td>
-                <td> rescode            </td>
-                <td> amountdue          </td>
-                <td> asofdate           </td>
-                <td> neighborhood       </td>
-                <td> policedistrict     </td>
-                <td> councildistrict    </td>
-                <td> location           </td>
-            </th>
-            <!--<tr ng-repeat="x in data | orderBy:'-citytax'">-->
-            <tr ng-repeat="x in data">
-                <td>                           </td>
-                <td> {{ x.propertyid }}         </td>
-                <td> {{ x.block }}             </td>
-                <td> {{ x.lot }}               </td>
-                <td> {{ x.ward }}              </td>
-                <td> {{ x.sect }}              </td>
-                <td> {{ x.propertyaddress }}   </td>
-                <td> {{ x.lotsize }}           </td>
-                <td> {{ x.citytax }}           </td>
-                <td> {{ x.statetax }}          </td>
-                <td> {{ x.rescode }}           </td>
-                <td> {{ x.amountdue }}         </td>
-                <td> {{ x.asofdate }}          </td>
-                <td> {{ x.neighborhood }}      </td>
-                <td> {{ x.policedistrict }}    </td>
-                <td> {{ x.councildistrict }}   </td>
-                <td> {{ x.location }}          </td>
-            </tr>
-        </table>
+            <table>
+                <th>
+                    <td> propertyid         </td>
+                    <td> block              </td>
+                    <td> lot                </td>
+                    <td> ward               </td>
+                    <td> sect               </td>
+                    <td> propertyaddress    </td>
+                    <td> lotsize            </td>
+                    <td> citytax            </td>
+                    <td> statetax           </td>
+                    <td> rescode            </td>
+                    <td> amountdue          </td>
+                    <td> asofdate           </td>
+                    <td> neighborhood       </td>
+                    <td> policedistrict     </td>
+                    <td> councildistrict    </td>
+                    <td> location           </td>
+                </th>
+                <!--<tr ng-repeat="x in data | orderBy:'-citytax'">-->
+                <tr ng-repeat="x in data">
+                    <td>                           </td>
+                    <td> {{ x.propertyid }}         </td>
+                    <td> {{ x.block }}             </td>
+                    <td> {{ x.lot }}               </td>
+                    <td> {{ x.ward }}              </td>
+                    <td> {{ x.sect }}              </td>
+                    <td> {{ x.propertyaddress }}   </td>
+                    <td> {{ x.lotsize }}           </td>
+                    <td> {{ x.citytax }}           </td>
+                    <td> {{ x.statetax }}          </td>
+                    <td> {{ x.rescode }}           </td>
+                    <td> {{ x.amountdue }}         </td>
+                    <td> {{ x.asofdate }}          </td>
+                    <td> {{ x.neighborhood }}      </td>
+                    <td> {{ x.policedistrict }}    </td>
+                    <td> {{ x.councildistrict }}   </td>
+                    <td> {{ x.location }}          </td>
+                </tr>
+            </table>
 
-        <br/>
-        {{data}}
+            <br/>
+            {{data}}
 
-    </div> <!-- endtag: AngularJS application -->
-
+        </div> <!-- endtag: AngularJS application -->
+    </td>
+</tr></table>
 </body>
 <!--
 href="https://data.cityofchicago.org/resource/alternative-fuel-locations.json?$limit=100&$offset=100"

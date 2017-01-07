@@ -4,33 +4,14 @@ function($scope, $http) {
 
         $scope.myDataSource = {
                 chart: {
-                    caption: "Harry's SuperMart",
-                    subCaption: "Top 5 stores in last month by revenue",
+                    caption: "Baltimore Taxes",
+                    subCaption: "Subcaption",
                     numberPrefix: "$",
                     theme: "ocean"
                 },
-                data:[{
-                    label: "Bakersfield Central",
-                    value: "880000"
-                },
-                {
-                    label: "Garden Groove harbour",
-                    value: "730000"
-                },
-                {
-                    label: "Los Angeles Topanga",
-                    value: "590000"
-                },
-                {
-                    label: "Compton-Rancho Dom",
-                    value: "520000"
-                },
-                {
-                    label: "Daly City Serramonte",
-                    value: "330000"
-                }]
+                data:[]
             };
-            
+
     $scope.init = function() {
         $scope.limit = 10;
         $scope.offset = 0;
@@ -54,8 +35,21 @@ function($scope, $http) {
                 console.log("~~~~~")
             }
             */
-
+    
             $scope.data = response.data;
+
+            chartdata = []
+            for (var x in response.data) {
+                if (response.data[x].citytax != null) {
+                    chartdata.push(
+                        {
+                            label: response.data[x].propertyaddress,
+                            value: response.data[x].citytax
+                        }
+                    );
+                }
+            }
+            $scope.myDataSource.data = chartdata
         });
 
         /*
