@@ -1,1 +1,1 @@
-/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome home.html
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome index.html

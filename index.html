@@ -3,16 +3,22 @@
 <html>
 
 <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js">
-    </script>
+
+    <!-- JS library includes -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script type="text/javascript" src="manage_data.js"></script>
+    <script src="fusioncharts/fusioncharts-dist-develop/fusioncharts.js"></script>
+    <script src="fusioncharts/angular-fusioncharts.min.js"></script>
+
 </head>
 
 <body>
 
-    <a onclick=""> hi </a>
-
     <div ng-app="application" ng-controller="controller"
          ng-init="init();"> <!-- begintag: AngularJS application -->
+        
+        <div fusioncharts width="600" height="400" type="column2d" dataSource="{{myDataSource}}" >
+        </div>
 
         Limit: <input type="text" ng-model="limit">     <br/>
         Offset: <input type="text" ng-model="offset">   <br/>
@@ -22,21 +28,42 @@
 
         <table>
             <th>
-                <td> artistfirstname    </td>
-                <td> artistlastname     </td>
-                <td> year               </td>
+                <td> propertyid         </td>
+                <td> block              </td>
+                <td> lot                </td>
+                <td> ward               </td>
+                <td> sect               </td>
+                <td> propertyaddress    </td>
+                <td> lotsize            </td>
+                <td> citytax            </td>
+                <td> statetax           </td>
+                <td> rescode            </td>
+                <td> amountdue          </td>
+                <td> asofdate           </td>
+                <td> neighborhood       </td>
+                <td> policedistrict     </td>
+                <td> councildistrict    </td>
                 <td> location           </td>
-                <td> location1          </td>
-                <td> image              </td>
             </th>
+            <!--<tr ng-repeat="x in data | orderBy:'-citytax'">-->
             <tr ng-repeat="x in data">
                 <td>                           </td>
-                <td> {{ x.artistfirstname   }} </td>
-                <td> {{ x.artistlastname    }} </td>
-                <td> {{ x.year              }} </td>
-                <td> {{ x.location1         }} </td>
-                <td> {{ x.location1         }} </td>
-                <td> {{ x.image             }} </td>
+                <td> {{ x.propertyid }}         </td>
+                <td> {{ x.block }}             </td>
+                <td> {{ x.lot }}               </td>
+                <td> {{ x.ward }}              </td>
+                <td> {{ x.sect }}              </td>
+                <td> {{ x.propertyaddress }}   </td>
+                <td> {{ x.lotsize }}           </td>
+                <td> {{ x.citytax }}           </td>
+                <td> {{ x.statetax }}          </td>
+                <td> {{ x.rescode }}           </td>
+                <td> {{ x.amountdue }}         </td>
+                <td> {{ x.asofdate }}          </td>
+                <td> {{ x.neighborhood }}      </td>
+                <td> {{ x.policedistrict }}    </td>
+                <td> {{ x.councildistrict }}   </td>
+                <td> {{ x.location }}          </td>
             </tr>
         </table>
 
@@ -44,44 +71,6 @@
         {{data}}
 
     </div> <!-- endtag: AngularJS application -->
-
-    <script>
-        angular.module('application', [])
-        .controller('controller',
-        function($scope, $http) {
-
-            $scope.init = function() {
-                $scope.limit = 10;
-                $scope.offset = 0;
-                $scope.data= null;
-            }
-
-            $scope.getData = function() {
-                // get API endpoint data in JSON format via http with params:
-                //   limit: number of items to show AND
-                //   offset: starting point at which to display items
-                $http.get(
-                    "https://data.baltimorecity.gov/resource/x3eq-9sua.json" +
-                    "?$limit="  + $scope.limit +
-                    "&$offset=" + $scope.offset)
-                .then(function(response) {
-                    $scope.data = response.data;
-                });
-
-                console.log("scope.data" + $scope.data);
-                var i = 0;
-                for (x in $scope.data) {
-                    console.log(i);
-                    console.log(x.constructor.name);
-                    console.log(x.name);
-                    console.log("~~~");
-
-                    i++;
-                }
-            }
-
-        });
-    </script>
 
 </body>
 <!--
