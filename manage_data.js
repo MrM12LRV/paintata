@@ -4,8 +4,8 @@ function($scope, $http) {
 
         $scope.myDataSource = {
                 chart: {
-                    caption: "Baltimore Taxes",
-                    subCaption: "Subcaption",
+                    caption: "Baltimore Tax Data",
+                    subCaption: "TODO: Subcaption",
                     numberPrefix: "$",
                     theme: "ocean"
                 },
@@ -13,9 +13,16 @@ function($scope, $http) {
             };
 
     $scope.init = function() {
-        $scope.limit = 10;
+        $scope.data = null;
+
+        // Default parameters into SoQL query
+        $scope.limit = 100;
         $scope.offset = 0;
-        $scope.data= null;
+        $scope.order = "";
+
+        // Fusionchart width and height
+        $scope.chartwidth = 600;
+        $scope.chartheight = 400;
     }
 
     $scope.getData = function() {
@@ -23,9 +30,11 @@ function($scope, $http) {
         //   limit: number of items to show AND
         //   offset: starting point at which to display items
         $http.get(
-            "https://data.baltimorecity.gov/resource/6act-qzuy.json" +
-            "?$limit="  + $scope.limit +
-            "&$offset=" + $scope.offset)
+            "https://data.baltimorecity.gov/resource/6act-qzuy.json?" +
+            "$$app_token=e84J9MwiPjWzzSDSHDTz9po1x" +
+            "&$limit="  + $scope.limit +
+            "&$offset=" + $scope.offset +
+            "&$order=" + $scope.order)
         .then(function(response) {
             /*
             for (x in response.data) {

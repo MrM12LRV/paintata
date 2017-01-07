@@ -16,21 +16,53 @@
 </head>
 
 <body class="body-style">
-<table><tr> <td> Welcome! </td> <td> This is a webpage </td> </tr>
-<tr>
-    <td> Here I am
-    </td>
+<div ng-app="application" ng-controller="controller"
+     ng-init="init();"> <!-- begintag: AngularJS application -->
 
-    <td>
-        <div ng-app="application" ng-controller="controller"
-             ng-init="init();"> <!-- begintag: AngularJS application -->
-            
-            <div fusioncharts width="600" height="400" type="column2d" dataSource="{{myDataSource}}" >
+    <table> <tr><td> Welcome! </td>
+                <td>
+                    Chart width: <input type="text" ng-model="chartwidth">
+                    Chart height:<input type="text" ng-model="chartheight">
+                </td>
+            </tr>
+        <tr>
+        <td> Here I am
+        </td>
+
+        <td>
+            <div fusioncharts width="{{chartwidth}}" height="{{chartheight}}" type="column2d" dataSource="{{myDataSource}}" >
             </div>
 
             <div class="user-input" >
                 Limit: <input type="text" ng-model="limit">     <br/>
                 Offset: <input type="text" ng-model="offset">   <br/>
+                <input type="radio" name="order" ng-model="order" value="" checked> No order <br/>
+                <table>
+                    <tr>
+                        <td> <input type="radio" name="order" ng-model="order" value="propertyid"> propertyid </td>
+                        <td> <input type="radio" name="order" ng-model="order" value="block"> block </td>
+                        <td> <input type="radio" name="order" ng-model="order" value="lot"> lot </td>
+                        <td> <input type="radio" name="order" ng-model="order" value="ward"> ward </td>
+                    </tr>
+                    <tr>
+                        <td> <input type="radio" name="order" ng-model="order" value="sect"> sect </td>
+                        <td> <input type="radio" name="order" ng-model="order" value="propertyaddress"> propertyaddress </td> 
+                        <td> <input type="radio" name="order" ng-model="order" value="lotsize"> lotsize </td>
+                        <td> <input type="radio" name="order" ng-model="order" value="citytax"> citytax </td>
+                    </tr>
+                    <tr>
+                        <td> <input type="radio" name="order" ng-model="order" value="statetax"> statetax </td>
+                        <td> <input type="radio" name="order" ng-model="order" value="rescode"> rescode </td>
+                        <td> <input type="radio" name="order" ng-model="order" value="amountdue"> amountdue </td>
+                        <td> <input type="radio" name="order" ng-model="order" value="asofdate"> asofdate </td>
+                    </tr>
+                    <tr>
+                        <td> <input type="radio" name="order" ng-model="order" value="neighborhood"> neighborhood </td>
+                        <td> <input type="radio" name="order" ng-model="order" value="policedistrict"> policedistrict </td>
+                        <td> <input type="radio" name="order" ng-model="order" value="councildistrict"> councildistrict </td>
+                        <td> <input type="radio" name="order" ng-model="order" value="location"> location </td>
+                    </tr>
+                </table>
                 <button ng-click="getData()"> Display </button> <br/>
             </div>
 
@@ -80,9 +112,12 @@
             <br/>
             {{data}}
 
-        </div> <!-- endtag: AngularJS application -->
-    </td>
-</tr></table>
+        </td>
+        </tr>
+    </table>
+</div> <!-- endtag: AngularJS application -->
+
+
 </body>
 <!--
 href="https://data.cityofchicago.org/resource/alternative-fuel-locations.json?$limit=100&$offset=100"
