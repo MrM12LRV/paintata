@@ -1,6 +1,6 @@
 # paintata
-AngularJS / HTML project to display the art and mural data of Baltimore.
-
+AngularJS / HTML project to retrive, filter, search, and sort
+    tax data and to display contract spending data in Baltimore.
 
 ###################
 ### Running
@@ -36,12 +36,12 @@ Check "Reverse" or not.  This determines whether the data is
     ordered ascending or descending.  Note that this is
     reflected in the chart's subcaption.
 
-Possibly lookup a single record by either its property address
-    or its property ID via "Addr lookup" or "ID lookup".
+Enter in text for a full-text search via "Search".  This is
+    case-sensitive.
+
+Possibly lookup a single record by its property ID with "ID lookup".
     Some examples to try are:
-    TODO: example for "Addr lookup"
-    TODO: example for "ID lookup"
-    These have to be exact.
+    Try "1386 002" for "ID lookup"
 
 Enter in filters for "Ward", "Sect", and/or "Coun Distr" (Council District).
     One can see examples of possible wards, sectors, and council districts
@@ -60,20 +60,29 @@ Alternative to all the above steps: press "Fetch Spending Data" to
 ###################
 ### Libraries
 ###################
+
     AngularJS framework
+
     Fusion Charts:
         http://www.fusioncharts.com/
     Angular Charts:
         http://www.fusioncharts.com/angularjs-charts/
+
     Bootstrap
     jQuery (for Bootstrap)
 
+    SODA API
+        https://dev.socrata.com/
+        To query the Baltimore datasets with SoQL
+    The queried Baltimore data sets:
+        https://data.baltimorecity.gov/Financial/Real-Property-Taxes/27w9-urtv
+        https://data.baltimorecity.gov/Financial/Contract-Spending-Totals-By-Agency/pbn2-wzz5
 
 ###################
 ### Notes
 ###################
 
-I use SoQL queries to retrive the Baltimore data.  That is, queries like so:
+I use SoQL queries to retrive the Baltimore data.  The queries are like so:
 https://data.baltimorecity.gov/resource/6act-qzuy.json?
             $$app_token=e84J9MwiPjWzzSDSHDTz9po1x
             &$limit=100
@@ -81,14 +90,15 @@ https://data.baltimorecity.gov/resource/6act-qzuy.json?
             &$order=citytax
             ...
 
-It is possible to order differently from that of chartvalue by changing
-    the url parameters.
-
-propertyaddress lookup and propertyid lookup must match exactly.
-    TODO: make this not the case.
-
 The ordering is based on the "chartvalue" variable in the ng model.  This also
     determines what values are displayed along the y-axis.
+
+It is possible to order differently from that of chartvalue by changing
+    the url parameters explicitly.  Check out test_suite.sh for examples.
+
+propertyid lookup must match exactly.  An extra space had to be added to
+    the end because the propertyid is stored in the database as a string
+    with a trailing space at the end of it.
 
 
 ###################
@@ -103,9 +113,18 @@ Files included in project:
     manage_data.js
         My javascript to manage (filter, retrieve, order) the incoming data
         from the Baltimore page.
+        There are two main control flows in this file.  One for querying
+        the Baltimore Tax Data (more complicated) and one for querying
+        the Contract Data (simple).  The Tax Data querying
+        uses the following functions:
+            getTaxData, buildWhereClause, reorderTaxData, relabelTaxData.
+        Whereas the Contract Data querying (which does not depend on input)
+        uses only:
+            getSpendingData, relabelSpendingData.
 
     style.css
         Page for the style of my webpage.
+        The table style is cited in the .css file.
 
 
 ###################
@@ -114,6 +133,5 @@ Files included in project:
 When displaying lotsize, some lots have odd formats that are not
 parsed correctly by the default SoQL sorter.
 i.e. lot sizes such as "X134", "REAR PART 697 S.F", and "O-98 ACRES"
-will not be correctly interpreted.
-
-Sorting by Block and Lot does not have correct parsing either.
+will not be correctly interpreted.  Note: remove this in the future.
+I'm keeping it here for now; just simply acknowledging it.

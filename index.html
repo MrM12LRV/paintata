@@ -22,7 +22,7 @@
 
 <div class="jumbotron text-center">
   <h1> Baltimore Data Retriever </h1>
-  <p> A small webapp project using AngularJS, Bootstrap, Fusioncharts, and SODA. </p> 
+  <p> A webapp to display property taxes and contract spending in Baltimore. </p> 
 </div>
 
 <div class="container"
@@ -78,22 +78,14 @@
                            ng-true-value="'ASC'"
                            ng-false-value="'DESC'">             <br/>
 
-            <label for="addrlookup"> Addr Lookup: </label>
-            <input id="addrlookup" type="text" ng-model="addrlookup">   <br/>
+            <label for="search"> Search: </label>
+            <input id="search" type="text" ng-model="search">   <br/>
 
             <label for="idlookup"> ID Lookup: </label>
             <input id="idlookup" type="text" ng-model="idlookup">   <br/>
 
         </div>
         <div class="col-sm-4">
-            <!--
-            <label for="block"> Block: </label>
-            <input id="block" type="text" ng-model="block"> <br/>
-
-            <label for="lot"> Lot: </label>
-            <input id="lot" type="text" ng-model="lot">     <br/>
-            -->
-
             <label for="ward"> Ward: </label>
             <input id="ward" type="text" ng-model="ward">   <br/>
 
@@ -161,6 +153,9 @@
             </table>
 
         </div>
+    </div>
+    <div class="row">
+        <p> Copyright © 2016, 2017 by Joey Fernau </p>
     </div>
 </div> <!-- endtag: AngularJS application -->
 

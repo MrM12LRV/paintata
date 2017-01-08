@@ -23,7 +23,7 @@ function($scope, $http) {
             $scope.ward = getParam('ward');
             $scope.sect = getParam('sect');
             $scope.councildistrict = getParam('councildistrict');
-            $scope.addrlookup = getParam('addrlookup');
+            $scope.search = getParam('search');
             $scope.idlookup = getParam('idlookup');
             $scope.chartwidth = getParam('chartwidth');
             $scope.chartheight = getParam('chartheight');
@@ -39,8 +39,8 @@ function($scope, $http) {
             $scope.order = assignDefault($scope.order, "citytax");
             $scope.reverse = assignDefault($scope.reverse, "DESC");
 
-            // Lookup parameters into query:
-            $scope.addrlookup = assignDefault($scope.addrlookup, "");
+            // Lookup and search parameters into query:
+            $scope.search = assignDefault($scope.search, "");
             $scope.idlookup = assignDefault($scope.idlookup, "");
 
             // Filter parameters into query:
@@ -100,6 +100,7 @@ function($scope, $http) {
                 case "lotsize":  to_value = record.lotsize; break;
                 default: to_value = record.citytax; break;
             }
+
             if (to_value != null)
                 chartdata.push({ label: to_label, value: to_value });
         }
@@ -120,11 +121,11 @@ function($scope, $http) {
         var where_clause;
         where_clause = $scope.order + " IS NOT NULL ";
 
-        // Add lookups to where clause:
-        if ($scope.addrlookup != "")
-            where_clause += "AND propertyaddress='" + $scope.addrlookup +"' ";
+        // Add lookups to where clause
+        //     (Extra space after idlookup is necessary due to
+        //      how property id is stored in database):
         if ($scope.idlookup != "")
-            where_clause += "AND propertyid='" + $scope.idlookup +"' ";
+            where_clause += "AND propertyid='" + $scope.idlookup +" ' ";
 
         // Add filters to where clause:
         if ($scope.block != "")
@@ -162,7 +163,8 @@ function($scope, $http) {
             "&$limit="  + $scope.limit +       // number of records to display
             "&$offset=" + $scope.offset +                  // offset into data
             "&$order=" + $scope.order + " " + $scope.reverse +      // sorting
-            "&$where=" + where_clause)                            // filtering
+            "&$where=" + where_clause +                           // filtering
+            "&$q=" + $scope.search)                               // searching
         .then(function(response) {
             $scope.data = response.data;
             $scope.relabelTaxData();
@@ -180,9 +182,6 @@ function($scope, $http) {
         // Assign labels to chart records to display:
         var chartdata = [];
         for (var i in $scope.data) {
-            for (var param in $scope.data[i]) {
-                console.log(param);
-            }
             record = $scope.data[i];
             chartdata.push({ label: record.agency,
                              value: record.sum_totalcontractamt });
