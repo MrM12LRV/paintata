@@ -17,7 +17,7 @@
 
 <body class="body-style">
 <div ng-app="application" ng-controller="controller"
-     ng-init="init();"> <!-- begintag: AngularJS application -->
+     ng-init="init();getData()"> <!-- begintag: AngularJS application -->
 
     <table>
         <tr>
@@ -64,9 +64,10 @@
                     <option value="propertyid"> Property ID </option>
                 </select>
                 Chart value:
-                <select name="chartValueSelect" ng-model="chartvalue" ng-change="relabel()">
+                <select name="chartValueSelect" ng-model="chartvalue" ng-change="reorder()">
                     <option value="citytax" selected> City Tax </option>
                     <option value="statetax"> State Tax </option>
+                    <option value="amountdue"> Amount Due </option>
                     <option value="lotsize"> Lot Size </option>
                 </select>
                 <br/>
@@ -74,8 +75,13 @@
                 Offset: <input type="text" ng-model="offset">   <br/>
                 Search: <input type="text" ng-model="where">    <br/>
                 Reverse:<input type="checkbox" ng-model="reverse"
-                               ng-true-value="'DESC'"
-                               ng-false-value="'ASC'"> <br/>
+                               ng-true-value="'ASC'"
+                               ng-false-value="'DESC'"> <br/>
+                Ordering:
+                <!--
+                    <input type="hidden" ng-model="order" value="{{chartvalue}}">
+                -->
+                <!--
                 <select name="orderSelect" ng-model="order">
                     <option value="" selected> No order </option>
                     <option value="propertyid"> propertyid </option>
@@ -94,7 +100,7 @@
                     <option value="policedistrict"> policedistrict </option>
                     <option value="councildistrict"> councildistrict </option>
                     <option value="location"> location </option>
-                </select>
+                </select> -->
                 <button ng-click="getData()"> Fetch Data </button> <br/>
             </td>
         </tr>
