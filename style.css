@@ -10,13 +10,7 @@ label {
     text-align: right;
 }
 
- /* in case your dealing with a block element apply this to the element itself */
-.center-block {
-   margin-left:auto;
-   margin-right:auto;
-   display:block;
-}
-/* in case your dealing with a inline element apply this to the parent */
+/* to center an inline element */
 .text-center {
    text-align:center
 }
