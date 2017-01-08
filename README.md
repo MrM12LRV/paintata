@@ -126,6 +126,19 @@ Files included in project:
         Page for the style of my webpage.
         The table style is cited in the .css file.
 
+    fusioncharts/
+        Directory containing downloaded fusioncharts library.
+
+    run.sh
+        Script to start the webapp.
+
+    test_suite.sh
+        Script to start multiple instances of this webapp with
+        different url parameters as test cases.
+
+    README.md
+        This file.
+
 
 ###################
 ### Bugs
