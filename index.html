@@ -45,53 +45,57 @@
             <td> <!-- for margin padding -->
             </td>
             <td>
-                Chart width: <input type="text" ng-model="chartwidth">
-                Chart height:<input type="text" ng-model="chartheight">
-                <br/>
-                <div class="user-input" >
-                    Limit: <input type="text" ng-model="limit">     <br/>
-                    Offset: <input type="text" ng-model="offset">   <br/>
-                    <input type="radio" name="order" ng-model="order" value="" checked> No order <br/>
-                    <table>
-                        <tr>
-                            <td> <input type="radio" name="order" ng-model="order" value="propertyid"> propertyid </td>
-                            <td> <input type="radio" name="order" ng-model="order" value="block"> block </td>
-                            <td> <input type="radio" name="order" ng-model="order" value="lot"> lot </td>
-                            <td> <input type="radio" name="order" ng-model="order" value="ward"> ward </td>
-                        </tr>
-                        <tr>
-                            <td> <input type="radio" name="order" ng-model="order" value="sect"> sect </td>
-                            <td> <input type="radio" name="order" ng-model="order" value="propertyaddress"> propertyaddress </td> 
-                            <td> <input type="radio" name="order" ng-model="order" value="lotsize"> lotsize </td>
-                            <td> <input type="radio" name="order" ng-model="order" value="citytax"> citytax </td>
-                        </tr>
-                        <tr>
-                            <td> <input type="radio" name="order" ng-model="order" value="statetax"> statetax </td>
-                            <td> <input type="radio" name="order" ng-model="order" value="rescode"> rescode </td>
-                            <td> <input type="radio" name="order" ng-model="order" value="amountdue"> amountdue </td>
-                            <td> <input type="radio" name="order" ng-model="order" value="asofdate"> asofdate </td>
-                        </tr>
-                        <tr>
-                            <td> <input type="radio" name="order" ng-model="order" value="neighborhood"> neighborhood </td>
-                            <td> <input type="radio" name="order" ng-model="order" value="policedistrict"> policedistrict </td>
-                            <td> <input type="radio" name="order" ng-model="order" value="councildistrict"> councildistrict </td>
-                            <td> <input type="radio" name="order" ng-model="order" value="location"> location </td>
-                        </tr>
-                    </table>
-                    <button ng-click="getData()"> Display </button> <br/>
-                </div>
-
+                Chart width: <input type="text" ng-model="chartwidth">  <br/>
+                Chart height:<input type="text" ng-model="chartheight"> <br/>
+                Chart type:
                 <select name="chartTypeSelect" ng-model="charttype">
                     <option value="column2d" selected> Column 2D </option>
-                    <option value="bar2d" selected> Bar 2D </option>
+                    <option value="bar2d"> Bar 2D </option>
                     <option value="pie2d"> Pie 2D </option>
                     <option value="doughnut2d"> Doughnut 2D </option>
-                    <option value="column3d" selected> Column 3D </option>
-                    <option value="bar3d" selected> Bar 3D </option>
+                    <option value="column3d"> Column 3D </option>
+                    <option value="bar3d"> Bar 3D </option>
                     <option value="pie3d"> Pie 3D </option>
                     <option value="doughnut3d"> Doughnut 3D </option>
                 </select>
-
+                Chart label:
+                <select name="chartLabelSelect" ng-model="chartlabel" ng-change="relabel()">
+                    <option value="propertyaddress" selected> Property Address </option>
+                    <option value="propertyid"> Property ID </option>
+                </select>
+                Chart value:
+                <select name="chartValueSelect" ng-model="chartvalue" ng-change="relabel()">
+                    <option value="citytax" selected> City Tax </option>
+                    <option value="statetax"> State Tax </option>
+                    <option value="lotsize"> Lot Size </option>
+                </select>
+                <br/>
+                Limit: <input type="text" ng-model="limit">     <br/>
+                Offset: <input type="text" ng-model="offset">   <br/>
+                Search: <input type="text" ng-model="where">    <br/>
+                Reverse:<input type="checkbox" ng-model="reverse"
+                               ng-true-value="'DESC'"
+                               ng-false-value="'ASC'"> <br/>
+                <select name="orderSelect" ng-model="order">
+                    <option value="" selected> No order </option>
+                    <option value="propertyid"> propertyid </option>
+                    <option value="block"> block </option>
+                    <option value="lot"> lot </option>
+                    <option value="ward"> ward </option>
+                    <option value="sect"> sect </option>
+                    <option value="propertyaddress"> propertyaddress </option> 
+                    <option value="lotsize"> lotsize </option>
+                    <option value="citytax"> citytax </option>
+                    <option value="statetax"> statetax </option>
+                    <option value="rescode"> rescode </option>
+                    <option value="amountdue"> amountdue </option>
+                    <option value="asofdate"> asofdate </option>
+                    <option value="neighborhood"> neighborhood </option>
+                    <option value="policedistrict"> policedistrict </option>
+                    <option value="councildistrict"> councildistrict </option>
+                    <option value="location"> location </option>
+                </select>
+                <button ng-click="getData()"> Fetch Data </button> <br/>
             </td>
         </tr>
         <tr>
