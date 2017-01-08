@@ -2,62 +2,80 @@ angular.module('application', ["ng-fusioncharts"])
 .controller('controller',
 function($scope, $http) {
 
-    // Fusionchart properties
-    $scope.myDataSource = {
-            chart: {
-                caption: "",
-                subCaption: "",
-                numberPrefix: "",
-                theme: "ocean"
-            },
-            data:[]
-        };
+    // Assigns default value if input is empty string:
+    function assignDefault(input, default_val) {
+        return (input == "" || input == null) ? default_val : input
+    }
 
     $scope.init = function() {
         $scope.data = null;
 
-        // Default parameters into SoQL query
-        $scope.limit = 100;
-        $scope.offset = 0;
-        $scope.order = "citytax";
-        $scope.where = "";
-        $scope.reverse = "DESC";
+        // Fusionchart properties
+        $scope.myDataSource = { chart: {
+            caption: "", subCaption: "",
+            numberPrefix: "", theme: "ocean" }, data:[] };
 
-        // Fusionchart width and height
-        $scope.chartwidth = 1200;
-        $scope.chartheight = 400;
-        $scope.charttype = "column2d";
-        $scope.chartlabel = "propertyaddress";
-        $scope.chartvalue = "citytax";
+        // Get parameters from URL:
+            $scope.limit = getParam('limit');
+            $scope.offset = getParam('offset');
+            $scope.order = getParam('order');
+            $scope.reverse = getParam('reverse');
+            $scope.ward = getParam('ward');
+            $scope.sect = getParam('sect');
+            $scope.councildistrict = getParam('councildistrict');
+            $scope.addrlookup = getParam('addrlookup');
+            $scope.idlookup = getParam('idlookup');
+            $scope.chartwidth = getParam('chartwidth');
+            $scope.chartheight = getParam('chartheight');
+            $scope.charttype = getParam('charttype');
+            $scope.chartlabel = getParam('chartlabel');
+            $scope.chartvalue = getParam('chartvalue');
+
+
+        // If any parameters from URL are empty, fill with default values:
+            // Default parameters into SoQL query:
+            $scope.limit = assignDefault($scope.limit, 100);
+            $scope.offset = assignDefault($scope.offset, 0);
+            $scope.order = assignDefault($scope.order, "citytax");
+            $scope.reverse = assignDefault($scope.reverse, "DESC");
+
+            // Lookup parameters into query:
+            $scope.addrlookup = assignDefault($scope.addrlookup, "");
+            $scope.idlookup = assignDefault($scope.idlookup, "");
+
+            // Filter parameters into query:
+            $scope.block = assignDefault($scope.block, "");
+            $scope.lot = assignDefault($scope.lot, "");
+            $scope.ward = assignDefault($scope.ward, "");
+            $scope.sect = assignDefault($scope.sect, "");
+            $scope.councildistrict = assignDefault($scope.councildistrict, "");
+
+            // Fusionchart width and height:
+            $scope.chartwidth = assignDefault($scope.chartwidth, 1200);
+            $scope.chartheight = assignDefault($scope.chartheight, 600);
+            $scope.charttype = assignDefault($scope.charttype, "column2d");
+            $scope.chartlabel = assignDefault($scope.chartlabel, "propertyaddress");
+            $scope.chartvalue = assignDefault($scope.chartvalue, "citytax");
     }
 
     // Assigns labels and values to objects on chart (called on SoQL query
     //     requests and option modifications to dynamically alter chart):
-    $scope.relabel = function() {
-        var caption;
-        var subCaption;
-        var numberPrefix;
+    $scope.relabelTaxData = function() {
+        $scope.myDataSource.chart.numberPrefix =
+                        ($scope.chartvalue=="lotsize") ? "" : "$";
         // Label chart title and set chart properties:
         switch ($scope.chartvalue) {
             case "citytax":
-                $scope.myDataSource.chart.caption = "Baltimore City Tax Data"
-                $scope.myDataSource.chart.subCaption = "TODO"
-                $scope.myDataSource.chart.numberPrefix = "$"
+                $scope.myDataSource.chart.caption = "Baltimore City Tax Data";
                 break;
             case "statetax":
-                $scope.myDataSource.chart.caption = "Baltimore State Tax Data"
-                $scope.myDataSource.chart.subCaption = "TODO"
-                $scope.myDataSource.chart.numberPrefix = "$"
+                $scope.myDataSource.chart.caption = "Baltimore State Tax Data";
                 break;
             case "amountdue":
-                $scope.myDataSource.chart.caption = "Baltimore Amount Due Data"
-                $scope.myDataSource.chart.subCaption = "TODO"
-                $scope.myDataSource.chart.numberPrefix = "$"
+                $scope.myDataSource.chart.caption = "Baltimore Amount Due Data";
                 break;
             case "lotsize":
-                $scope.myDataSource.chart.caption = "Baltimore Lot Size Data"
-                $scope.myDataSource.chart.subCaption = "TODO"
-                $scope.myDataSource.chart.numberPrefix = ""
+                $scope.myDataSource.chart.caption = "Baltimore Lot Size Data";
                 break;
         }
 
@@ -91,26 +109,51 @@ function($scope, $http) {
     }
 
     // Reordering data requires another GET request (SoQL query):
-    $scope.reorder = function() {
-        $scope.getData();
-        $scope.relabel();
+    $scope.reorderTaxData = function() {
+        $scope.getTaxData();
+        $scope.relabelTaxData();
     }
 
-    $scope.getData = function() {
+    // Build where clause for SoQL query so that only items
+    //     with column we are ordering by are displayed:
+    function buildWhereClause() {
+        var where_clause;
+        where_clause = $scope.order + " IS NOT NULL ";
+
+        // Add lookups to where clause:
+        if ($scope.addrlookup != "")
+            where_clause += "AND propertyaddress='" + $scope.addrlookup +"' ";
+        if ($scope.idlookup != "")
+            where_clause += "AND propertyid='" + $scope.idlookup +"' ";
+
+        // Add filters to where clause:
+        if ($scope.block != "")
+            where_clause += "AND block='" + $scope.block + "' ";
+        if ($scope.lot != "")
+            where_clause += "AND lot='" + $scope.lot + "' ";
+        if ($scope.ward != "")
+            where_clause += "AND ward='" + $scope.ward + "' ";
+        if ($scope.sect != "")
+            where_clause += "AND sect='" + $scope.sect + "' ";
+        if ($scope.councildistrict != "")
+            where_clause += "AND councildistrict='" +
+                $scope.councildistrict + "' ";
+
+        return where_clause;
+    }
+
+    $scope.getTaxData = function() {
         // Order data based on the value being displayed currently:
         $scope.order = $scope.chartvalue;
-
-        // Build where clause for SoQL query based on whether or not
-        //     there is an order and/or a preexisting where
-        //     to the request:
-        var where_clause;
-        if ($scope.order != null && $scope.order != "") {
-            where_clause = $scope.order + " IS NOT NULL ";
-            if ($scope.where != null & $scope.where != "")
-                where_clause += " AND " + $scope.where;
-        }
+        // Display subcaption based on ascending or descending order:
+        if ($scope.reverse == "DESC")
+            $scope.myDataSource.chart.subCaption =
+                "Ordered from highest to lowest";
         else
-            where_clause = $scope.where;
+            $scope.myDataSource.chart.subCaption =
+                "Ordered from lowest to highest";
+
+        var where_clause = buildWhereClause();
 
         // Get API endpoint data in JSON format via http with params:
         $http.get(
@@ -122,9 +165,57 @@ function($scope, $http) {
             "&$where=" + where_clause)                            // filtering
         .then(function(response) {
             $scope.data = response.data;
-            $scope.relabel();
+            $scope.relabelTaxData();
+        });
+
+    }
+
+    // Assigns labels and values to objects on chart (called on SoQL query
+    //     requests and option modifications to dynamically alter chart):
+    $scope.relabelSpendingData = function() {
+        $scope.myDataSource.chart.numberPrefix = "$";
+        $scope.myDataSource.chart.caption = "Baltimore Contract Spending Data";
+        $scope.myDataSource.chart.subCaption = "By Agency";
+
+        // Assign labels to chart records to display:
+        var chartdata = [];
+        for (var i in $scope.data) {
+            for (var param in $scope.data[i]) {
+                console.log(param);
+            }
+            record = $scope.data[i];
+            chartdata.push({ label: record.agency,
+                             value: record.sum_totalcontractamt });
+        }
+
+        // Assign the relabeled data to the chart's data source:
+        $scope.myDataSource.data = chartdata;
+    }
+
+    $scope.getSpendingData = function() {
+        // Get API endpoint data in JSON format via http with params:
+        $http.get(
+            "https://data.baltimorecity.gov/resource/8yd7-f3df.json?" +
+            "$$app_token=e84J9MwiPjWzzSDSHDTz9po1x" // 'unlimited' requests
+            )
+        .then(function(response) {
+            $scope.data = response.data;
+            $scope.relabelSpendingData();
         });
 
     }
 
 });
+
+// from http://stackoverflow.com/questions/
+//     9718634/how-to-get-the-parameter-value-from-the-url-in-javascript
+function getParam(name) {
+    name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
+    var regexS = "[\\?&]"+name+"=([^&#]*)";
+    var regex = new RegExp( regexS );
+    var results = regex.exec( window.location.href );
+    if( results == null )
+        return "";
+    else
+        return results[1];
+}
