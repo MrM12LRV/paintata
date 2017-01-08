@@ -7,8 +7,10 @@
     color:crimson;
     background-color:peachpuff
 }
-.action {
-    color:#fff;
-    background-color:#20295b
+.side-bar {
+    color:black;
+    background-color:palevioletred;
+    outline-color: palevioletred;
+    outline-style: solid;
 }
 

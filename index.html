@@ -19,100 +19,136 @@
 <div ng-app="application" ng-controller="controller"
      ng-init="init();"> <!-- begintag: AngularJS application -->
 
-    <table> <tr><td> Welcome! </td>
-                <td>
-                    Chart width: <input type="text" ng-model="chartwidth">
-                    Chart height:<input type="text" ng-model="chartheight">
-                </td>
-            </tr>
+    <table>
         <tr>
-        <td> Here I am
-        </td>
+            <td class="side-bar">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </td>
+            <td class="side-bar"> <!-- for margin padding -->
+                &nbsp;&nbsp;&nbsp;
+            </td>
+            <td class="side-bar">
+                <br/><br/><br/><br/>
+            </td>
+        </tr>
+        <tr>
+            <td class="side-bar">
+                <br/> 
+            </td>
+            <td></td> <td></td>
+        </tr>
+        <tr>
+            <td class="side-bar">
+            </td>
+            <td> <!-- for margin padding -->
+            </td>
+            <td>
+                Chart width: <input type="text" ng-model="chartwidth">
+                Chart height:<input type="text" ng-model="chartheight">
+                <br/>
+                <div class="user-input" >
+                    Limit: <input type="text" ng-model="limit">     <br/>
+                    Offset: <input type="text" ng-model="offset">   <br/>
+                    <input type="radio" name="order" ng-model="order" value="" checked> No order <br/>
+                    <table>
+                        <tr>
+                            <td> <input type="radio" name="order" ng-model="order" value="propertyid"> propertyid </td>
+                            <td> <input type="radio" name="order" ng-model="order" value="block"> block </td>
+                            <td> <input type="radio" name="order" ng-model="order" value="lot"> lot </td>
+                            <td> <input type="radio" name="order" ng-model="order" value="ward"> ward </td>
+                        </tr>
+                        <tr>
+                            <td> <input type="radio" name="order" ng-model="order" value="sect"> sect </td>
+                            <td> <input type="radio" name="order" ng-model="order" value="propertyaddress"> propertyaddress </td> 
+                            <td> <input type="radio" name="order" ng-model="order" value="lotsize"> lotsize </td>
+                            <td> <input type="radio" name="order" ng-model="order" value="citytax"> citytax </td>
+                        </tr>
+                        <tr>
+                            <td> <input type="radio" name="order" ng-model="order" value="statetax"> statetax </td>
+                            <td> <input type="radio" name="order" ng-model="order" value="rescode"> rescode </td>
+                            <td> <input type="radio" name="order" ng-model="order" value="amountdue"> amountdue </td>
+                            <td> <input type="radio" name="order" ng-model="order" value="asofdate"> asofdate </td>
+                        </tr>
+                        <tr>
+                            <td> <input type="radio" name="order" ng-model="order" value="neighborhood"> neighborhood </td>
+                            <td> <input type="radio" name="order" ng-model="order" value="policedistrict"> policedistrict </td>
+                            <td> <input type="radio" name="order" ng-model="order" value="councildistrict"> councildistrict </td>
+                            <td> <input type="radio" name="order" ng-model="order" value="location"> location </td>
+                        </tr>
+                    </table>
+                    <button ng-click="getData()"> Display </button> <br/>
+                </div>
 
-        <td>
-            <div fusioncharts width="{{chartwidth}}" height="{{chartheight}}" type="column2d" dataSource="{{myDataSource}}" >
-            </div>
+                <select name="chartTypeSelect" ng-model="charttype">
+                    <option value="column2d" selected> Column 2D </option>
+                    <option value="bar2d" selected> Bar 2D </option>
+                    <option value="pie2d"> Pie 2D </option>
+                    <option value="doughnut2d"> Doughnut 2D </option>
+                    <option value="column3d" selected> Column 3D </option>
+                    <option value="bar3d" selected> Bar 3D </option>
+                    <option value="pie3d"> Pie 3D </option>
+                    <option value="doughnut3d"> Doughnut 3D </option>
+                </select>
 
-            <div class="user-input" >
-                Limit: <input type="text" ng-model="limit">     <br/>
-                Offset: <input type="text" ng-model="offset">   <br/>
-                <input type="radio" name="order" ng-model="order" value="" checked> No order <br/>
+            </td>
+        </tr>
+        <tr>
+            <td class="side-bar">
+            </td>
+            <td> <!-- for margin padding -->
+            </td>
+            <td>
+                <div fusioncharts
+                    width="{{chartwidth}}"
+                    height="{{chartheight}}"
+                    type="{{charttype}}"
+                    dataSource="{{myDataSource}}">
+                </div>
+
                 <table>
-                    <tr>
-                        <td> <input type="radio" name="order" ng-model="order" value="propertyid"> propertyid </td>
-                        <td> <input type="radio" name="order" ng-model="order" value="block"> block </td>
-                        <td> <input type="radio" name="order" ng-model="order" value="lot"> lot </td>
-                        <td> <input type="radio" name="order" ng-model="order" value="ward"> ward </td>
-                    </tr>
-                    <tr>
-                        <td> <input type="radio" name="order" ng-model="order" value="sect"> sect </td>
-                        <td> <input type="radio" name="order" ng-model="order" value="propertyaddress"> propertyaddress </td> 
-                        <td> <input type="radio" name="order" ng-model="order" value="lotsize"> lotsize </td>
-                        <td> <input type="radio" name="order" ng-model="order" value="citytax"> citytax </td>
-                    </tr>
-                    <tr>
-                        <td> <input type="radio" name="order" ng-model="order" value="statetax"> statetax </td>
-                        <td> <input type="radio" name="order" ng-model="order" value="rescode"> rescode </td>
-                        <td> <input type="radio" name="order" ng-model="order" value="amountdue"> amountdue </td>
-                        <td> <input type="radio" name="order" ng-model="order" value="asofdate"> asofdate </td>
-                    </tr>
-                    <tr>
-                        <td> <input type="radio" name="order" ng-model="order" value="neighborhood"> neighborhood </td>
-                        <td> <input type="radio" name="order" ng-model="order" value="policedistrict"> policedistrict </td>
-                        <td> <input type="radio" name="order" ng-model="order" value="councildistrict"> councildistrict </td>
-                        <td> <input type="radio" name="order" ng-model="order" value="location"> location </td>
+                    <th>
+                        <td> propertyid         </td>
+                        <td> block              </td>
+                        <td> lot                </td>
+                        <td> ward               </td>
+                        <td> sect               </td>
+                        <td> propertyaddress    </td>
+                        <td> lotsize            </td>
+                        <td> citytax            </td>
+                        <td> statetax           </td>
+                        <td> rescode            </td>
+                        <td> amountdue          </td>
+                        <td> asofdate           </td>
+                        <td> neighborhood       </td>
+                        <td> policedistrict     </td>
+                        <td> councildistrict    </td>
+                        <td> location           </td>
+                    </th>
+                    <!--<tr ng-repeat="x in data | orderBy:'-citytax'">-->
+                    <tr ng-repeat="x in data">
+                        <td>                           </td>
+                        <td> {{ x.propertyid }}         </td>
+                        <td> {{ x.block }}             </td>
+                        <td> {{ x.lot }}               </td>
+                        <td> {{ x.ward }}              </td>
+                        <td> {{ x.sect }}              </td>
+                        <td> {{ x.propertyaddress }}   </td>
+                        <td> {{ x.lotsize }}           </td>
+                        <td> {{ x.citytax }}           </td>
+                        <td> {{ x.statetax }}          </td>
+                        <td> {{ x.rescode }}           </td>
+                        <td> {{ x.amountdue }}         </td>
+                        <td> {{ x.asofdate }}          </td>
+                        <td> {{ x.neighborhood }}      </td>
+                        <td> {{ x.policedistrict }}    </td>
+                        <td> {{ x.councildistrict }}   </td>
+                        <td> {{ x.location }}          </td>
                     </tr>
                 </table>
-                <button ng-click="getData()"> Display </button> <br/>
-            </div>
 
-            Limit / Offset: {{limit + "/" + offset}}        <br/>
-
-            <table>
-                <th>
-                    <td> propertyid         </td>
-                    <td> block              </td>
-                    <td> lot                </td>
-                    <td> ward               </td>
-                    <td> sect               </td>
-                    <td> propertyaddress    </td>
-                    <td> lotsize            </td>
-                    <td> citytax            </td>
-                    <td> statetax           </td>
-                    <td> rescode            </td>
-                    <td> amountdue          </td>
-                    <td> asofdate           </td>
-                    <td> neighborhood       </td>
-                    <td> policedistrict     </td>
-                    <td> councildistrict    </td>
-                    <td> location           </td>
-                </th>
-                <!--<tr ng-repeat="x in data | orderBy:'-citytax'">-->
-                <tr ng-repeat="x in data">
-                    <td>                           </td>
-                    <td> {{ x.propertyid }}         </td>
-                    <td> {{ x.block }}             </td>
-                    <td> {{ x.lot }}               </td>
-                    <td> {{ x.ward }}              </td>
-                    <td> {{ x.sect }}              </td>
-                    <td> {{ x.propertyaddress }}   </td>
-                    <td> {{ x.lotsize }}           </td>
-                    <td> {{ x.citytax }}           </td>
-                    <td> {{ x.statetax }}          </td>
-                    <td> {{ x.rescode }}           </td>
-                    <td> {{ x.amountdue }}         </td>
-                    <td> {{ x.asofdate }}          </td>
-                    <td> {{ x.neighborhood }}      </td>
-                    <td> {{ x.policedistrict }}    </td>
-                    <td> {{ x.councildistrict }}   </td>
-                    <td> {{ x.location }}          </td>
-                </tr>
-            </table>
-
-            <br/>
-            {{data}}
-
-        </td>
+            </td>
         </tr>
     </table>
 </div> <!-- endtag: AngularJS application -->
