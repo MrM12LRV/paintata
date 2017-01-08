@@ -13,7 +13,7 @@ To run the project type:
 
 To run the test suite type:
     `./test_suite.sh`
-    (You may have to give permisions: `chmod +x test_suite.sh`)
+    (You may have to give permissions: `chmod +x test_suite.sh`)
     (Note: this opens up a bunch of web pages)
 
 ###################
