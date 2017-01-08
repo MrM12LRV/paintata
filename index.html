@@ -6,17 +6,24 @@
 
     <!-- CSS includes -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
     <!-- JS library includes -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
     <script type="text/javascript" src="manage_data.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="fusioncharts/fusioncharts-dist-develop/fusioncharts.js"></script>
     <script src="fusioncharts/angular-fusioncharts.min.js"></script>
 
 </head>
 
 <body class="body-style">
-<div ng-app="application" ng-controller="controller"
+<div class="jumbotron text-center">
+  <h1> Baltimore Data Retriever </h1>
+  <p> A project using AngularJS and SODA. </p> 
+</div>
+<div class="container"
+     ng-app="application" ng-controller="controller"
      ng-init="init();getData()"> <!-- begintag: AngularJS application -->
 
     <table>

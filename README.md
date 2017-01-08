@@ -1,6 +1,11 @@
 # paintata
 AngularJS / HTML project to display the art and mural data of Baltimore.
 
+To run the project type:
+    `./run.sh`
+    (You may have to give permissions to run this file: `chmod +x run.sh`)
+    -OR-
+    `/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome index.html`
 
 Libraries used:
     AngularJS framework
@@ -29,3 +34,10 @@ Files included in project:
 
     style.css
         Page for the style of my webpage.
+
+
+Bugs:
+    When displaying lotsize, some lots have odd formats that are not
+    parsed correctly by the default SoQL sorter.
+    i.e. lot sizes such as "X134", "REAR PART 697 S.F", and "O-98 ACRES"
+    will not be correctly interpreted.
