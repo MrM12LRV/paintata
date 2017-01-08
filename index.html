@@ -18,44 +18,26 @@
 </head>
 
 <body class="body-style">
+
 <div class="jumbotron text-center">
   <h1> Baltimore Data Retriever </h1>
-  <p> A project using AngularJS and SODA. </p> 
+  <p> A small webapp project using AngularJS, Bootstrap, Fusioncharts, and SODA. </p> 
 </div>
+
 <div class="container"
      ng-app="application" ng-controller="controller"
      ng-init="init();getData()"> <!-- begintag: AngularJS application -->
 
-    <table>
-        <tr>
-            <td class="side-bar">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </td>
-            <td class="side-bar"> <!-- for margin padding -->
-                &nbsp;&nbsp;&nbsp;
-            </td>
-            <td class="side-bar">
-                <br/><br/><br/><br/>
-            </td>
-        </tr>
-        <tr>
-            <td class="side-bar">
-                <br/> 
-            </td>
-            <td></td> <td></td>
-        </tr>
-        <tr>
-            <td class="side-bar">
-            </td>
-            <td> <!-- for margin padding -->
-            </td>
-            <td>
-                Chart width: <input type="text" ng-model="chartwidth">  <br/>
-                Chart height:<input type="text" ng-model="chartheight"> <br/>
-                Chart type:
-                <select name="chartTypeSelect" ng-model="charttype">
+        <div class="row">
+            <div class="col-sm-4">
+                <label for="chartwidth"> Chart width: </label>
+                <input id="chartwidth" type="text" ng-model="chartwidth">  <br/>
+
+                <label for="chartheight"> Chart height: </label>
+                <input id="chartheight" type="text" ng-model="chartheight"> <br/>
+
+                <label for="charttype"> Chart type: </label>
+                <select id="charttype" name="chartTypeSelect" ng-model="charttype">
                     <option value="column2d" selected> Column 2D </option>
                     <option value="bar2d"> Bar 2D </option>
                     <option value="pie2d"> Pie 2D </option>
@@ -64,27 +46,44 @@
                     <option value="bar3d"> Bar 3D </option>
                     <option value="pie3d"> Pie 3D </option>
                     <option value="doughnut3d"> Doughnut 3D </option>
-                </select>
-                Chart label:
-                <select name="chartLabelSelect" ng-model="chartlabel" ng-change="relabel()">
+                </select> <br/>
+
+                <label for="chartlabel"> Chart label: </label>
+                <select id="chartlabel" name="chartLabelSelect"
+                        ng-model="chartlabel" ng-change="relabel()">
                     <option value="propertyaddress" selected> Property Address </option>
                     <option value="propertyid"> Property ID </option>
-                </select>
-                Chart value:
-                <select name="chartValueSelect" ng-model="chartvalue" ng-change="reorder()">
+                </select> <br/>
+
+                <label for="chartvalue"> Chart value: </label>
+                <select id="chartvalue" name="chartValueSelect"
+                        ng-model="chartvalue" ng-change="reorder()">
                     <option value="citytax" selected> City Tax </option>
                     <option value="statetax"> State Tax </option>
                     <option value="amountdue"> Amount Due </option>
                     <option value="lotsize"> Lot Size </option>
-                </select>
-                <br/>
-                Limit: <input type="text" ng-model="limit">     <br/>
-                Offset: <input type="text" ng-model="offset">   <br/>
-                Search: <input type="text" ng-model="where">    <br/>
-                Reverse:<input type="checkbox" ng-model="reverse"
+                </select> <br/>
+            </div>
+
+            <div class="col-sm-4">
+                <label for="limit"> Limit: </label>
+                <input id="limit" type="text" ng-model="limit">     <br/>
+
+                <label for="offset"> Offset: </label>
+                <input id="offset" type="text" ng-model="offset">   <br/>
+
+                <label for="search"> Search: </label>
+                <input id="search" type="text" ng-model="where">    <br/>
+
+                <label for="reverse"> Reverse: </label>
+                <input id="reverse" type="checkbox" ng-model="reverse"
                                ng-true-value="'ASC'"
-                               ng-false-value="'DESC'"> <br/>
-                Ordering:
+                               ng-false-value="'DESC'">             <br/>
+                <label for="fetchbutton"> </label>
+                <button id="fetchbutton"
+                        ng-click="getData()"> Fetch Data </button>  <br/>
+                <!--Ordering:
+                -->
                 <!--
                     <input type="hidden" ng-model="order" value="{{chartvalue}}">
                 -->
@@ -108,15 +107,10 @@
                     <option value="councildistrict"> councildistrict </option>
                     <option value="location"> location </option>
                 </select> -->
-                <button ng-click="getData()"> Fetch Data </button> <br/>
-            </td>
-        </tr>
-        <tr>
-            <td class="side-bar">
-            </td>
-            <td> <!-- for margin padding -->
-            </td>
-            <td>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
                 <div fusioncharts
                     width="{{chartwidth}}"
                     height="{{chartheight}}"
@@ -165,9 +159,8 @@
                     </tr>
                 </table>
 
-            </td>
-        </tr>
-    </table>
+            </div>
+        </div>
 </div> <!-- endtag: AngularJS application -->
 
 

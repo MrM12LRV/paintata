@@ -14,3 +14,8 @@
     outline-style: solid;
 }
 
+label {
+    display: inline-block; /* Align labels */
+    width: 100px;
+    text-align: right;
+}
