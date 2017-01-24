@@ -34,8 +34,8 @@ function($scope, $http) {
 
         // If any parameters from URL are empty, fill with default values:
             // Default parameters into SoQL query:
-            $scope.limit = assignDefault($scope.limit, 100);
-            $scope.offset = assignDefault($scope.offset, 0);
+            $scope.limit = assignDefault($scope.limit, 25);
+            $scope.offset = assignDefault($scope.offset, 2);
             $scope.order = assignDefault($scope.order, "citytax");
             $scope.reverse = assignDefault($scope.reverse, "DESC");
 
@@ -46,12 +46,12 @@ function($scope, $http) {
             // Filter parameters into query:
             $scope.block = assignDefault($scope.block, "");
             $scope.lot = assignDefault($scope.lot, "");
-            $scope.ward = assignDefault($scope.ward, "");
-            $scope.sect = assignDefault($scope.sect, "");
+            $scope.ward = assignDefault($scope.ward, "21");
+            $scope.sect = assignDefault($scope.sect, "090");
             $scope.councildistrict = assignDefault($scope.councildistrict, "");
 
             // Fusionchart width and height:
-            $scope.chartwidth = assignDefault($scope.chartwidth, 1200);
+            $scope.chartwidth = assignDefault($scope.chartwidth, 800);
             $scope.chartheight = assignDefault($scope.chartheight, 600);
             $scope.charttype = assignDefault($scope.charttype, "column2d");
             $scope.chartlabel = assignDefault($scope.chartlabel, "propertyaddress");
