@@ -77,6 +77,8 @@ Alternative to all the above steps: press "Fetch Spending Data" to
     The queried Baltimore data sets:
         https://data.baltimorecity.gov/Financial/Real-Property-Taxes/27w9-urtv
         https://data.baltimorecity.gov/Financial/Contract-Spending-Totals-By-Agency/pbn2-wzz5
+    Express from npm
+        https://www.npmjs.com/package/express
 
 ###################
 ### Notes
@@ -109,7 +111,7 @@ Files included in project:
 
     index.html
         The single webpage of this project.
-        
+
     manage_data.js
         My javascript to manage (filter, retrieve, order) the incoming data
         from the Baltimore page.
@@ -139,6 +141,13 @@ Files included in project:
     README.md
         This file.
 
+###################
+### Requirements
+###################
+
+Express:
+
+    https://www.npmjs.com/package/express
 
 ###################
 ### Bugs
