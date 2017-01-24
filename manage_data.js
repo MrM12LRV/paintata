@@ -156,6 +156,9 @@ function($scope, $http) {
 
         var where_clause = buildWhereClause();
 
+        if ($scope.limit == "" || $scope.limit == null)
+            $scope.limit = "0" // don't want to display all values at once
+
         // Get API endpoint data in JSON format via http with params:
         $http.get(
             "https://data.baltimorecity.gov/resource/6act-qzuy.json?" +
